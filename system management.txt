@@ -1,0 +1,393 @@
+###CHAPTER 20# SYSTEM MANAGEMENT
+
+
+
+
+
+CONTROL_THE_AUTO_VOICE_VOLUME
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to adjust the volume level of Auto Voice heard in the scan room?",
+        "text": [
+         "1. Click the ImageWorks icon.
+         "2. On the Tool Chest, click Auto Voice Volume.
+         "3. Click and drag the right or left slider to adjust the Auto Voice volume levels in the scan room.
+         "4. Make a selection:
+         "a. Click Accept to accept the values but not save the values.
+         "b. Click Save to save the values.
+         "c. Click Defaultto reset the values to the system default values.
+         "5. Click Quit to exit.
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+AUTO_VOICE_CANNOT_BE_HEARD
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What shall be done if auto voice cannot be heard?",
+        "text": [
+            "1. If Auto Voice cannot be heard, check the settings forthe Auto Voice Volume listed in the Tool Chest on
+                the Image Works desktop",
+			"2. Click Auto Voice Volume on ImageWorks desktop in the toolbar",
+			"3. Use the sliders to set the value between 50 to 85%, click Save, and then Default to set the new saved value as the new
+                default",
+		    "4. Click Reset to reset the system default values."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+AUTO_VOICE_FAILURE
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What shall be done if auto voice fail to function?",
+        "text": [
+         "*  Make sure that youcan hear the Auto Voice to recognize if Auto Voice has quit",
+		 "*  Manually breathe the patient when this occurs." 
+        ]
+      }
+    ]
+  ] 
+}
+
+
+
+
+
+OPEN_A_UNIX_SHELL
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to display a Unix shell on the monitor?",
+        "text": [
+             "1. Click the ImageWorks icon",
+             "2. From the Tool Chest screen, click Unix Shell - Left or Unix Shell-Right to open a Command Line
+                 window on the monitor",
+             "3. Click File > Close Window or type exit to close the Unix shell window."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+TURN_ON_OR_OFF_EXTENDED_CT_NUMBERS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to enable or disable extended CT number range?",
+        "text": [
+		     "*   DentaScan and BMD1 are not supported in Extended CT Number, therefore do not use Extended
+                  CT numbers with these applciations",
+             "1.  Verify that the system is idle and that all reconstructions are complete",
+             "2.  Click the ImageWorks icon",
+             "3.  From the Tool Chest, click Turn On Extend HU or Turn Off Extend HU",
+             "*   The action that occurs is described on the button and does not reflect the state of the sytem",
+             "4.  Click OK on the message prompt",
+             "*   The system automatically shuts down and reboots as part of the extended CT numbers
+                  procedure." 
+        ]
+      }
+    ]
+  ]
+}
+ 
+
+
+
+
+
+
+
+
+COLLECT_DATA_WITH_QUICK_SNAP
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to collect necessary data fortrouble shooting system issues?",
+        "text": [
+             "*  Do not initiate a QuickSnap if the system is actively collecting data with X-ray on",
+             "1. Click the ImageWorks icon",
+             "2. From the Tool Chest, click Quick Snap",
+             "3. Click OK to the message prompt located on the left monitor. The pop-up screen closes when the snap
+                 is complete",
+             "4. Record the time and date of the QuickSnap for debugging by the service engineer." 
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+COLLECT_DATA_WITH_IQ_SNAP
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How  to collect the necessary data fortroubleshooting image quality issues?",
+        "text": [
+             "*  Do not initiate an IQ Snap while the system is actively scanning orreconstructing data",
+             "1. Click the ImageWorks icon",
+             "2. From the browser, select all the images for the investigation",
+             "3. Click Utilities",
+             "Select Create anonymous patient by image,series, or exam",
+             "*  Select up to 500 images in a single series",
+             "4. Select the anonymous exam",
+             "5. From the Tool Chest, click IQ Snap",
+             "*  If you did not make the images anonymous or did not select the anonymous exam, a pop-up
+                 displays instructing you to make the images anonymous. You cannot proceed until the selected
+                 images are anonymous",
+             "6. Click OK to the warning and the message prompts located on the left monitor",
+             "*  If you get a message at the end of IQ Snap that indicates it failed, contact service",
+             "*  This message closes once the IQ Snap is complete."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ANONYMISE_PATIENT_ANNOATION_LEVEL
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How  to set the annotation level for patient anonymize?", 
+        "text": [
+            "1. Click the ImageWorks icon",
+            "2. From the Tool Chest, click Anon. Pat. Level",
+            "3. Respond to the message prompt that defines the currently active anonymous state",
+            "*  Click OK to change the patient anonymous annotation level",
+            "*  Click Cancel to keep the current patient anonymous annotation level",
+            "4. Set the desired level: Full or Partial",
+            "*  Full mode is the most HIPAA compliant mode",
+            "*  ANON and the exam number are added to the Patient List."        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+EXPORT_PROTOCOLS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to export user protocols to a CD so that you can load the CD on a PC and print?", 
+        "text": [
+             "1. Click the ImageWorks icon",
+			 "2. From the Tool Chest screen, click Export Protocols",
+             "3. The CD/DVD tray opens and the system prompts you to place a blank CD media in the CD/DVD drive",
+             "4. Place a CD inserted in the tray",
+             "5. Click OK to close the drive and initiate the save process",  
+			 "*  The User adult and pediatric protocols are saved",
+             "6. The CD tray opens automatically when the save is complete. Remove the CD and click OK to the
+                 message prompt, which closes the tray."
+				 
+			]	 
+		}		 
+	] 	
+  ]
+}
+
+
+
+
+
+SCREEN_SAVE_TIMEOUT
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to set the time period for the scan and display monitor screen saver to start?
+		"text":[
+             "1. ClickService",
+             "2. From  the Service browser, click the Service browser title bar to move it so you can see the service
+                 ToolChest",
+             "3. From the Tool Chest, click Screensaver Time",
+             "4. From the Set Screensaver Timeout screen, click and drag the slider to adjust the time that the screensaver mode starts to between 5 to 60 minutes",
+             "*  Click on either side of the slider grab bar to increment in steps of 1 minute",
+             "* The default time is 30 minutes",
+			 "5.Click save."
+		}	 ]
+    ]
+	   
+  ] 
+}
+
+
+
+
+
+NEW_PATIENT_DOSENOT_OPEN
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What shall be done if during the Remote Safety test, New Patient does not open?",
+        "text": [
+             "* call InSite and request they abort the test",
+			 "* navigate to the Service Desktop and select CleanUp option to cancel the test in progress."
+			 ]
+      } 
+	
+    ]
+  ]
+}
+
+
+
+
+
+TERMINATE_ILFINQ_REMOTE_CONNECTION
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to terminate an iLinq connection when a GE representative initiated the connection?", 
+        "text": [
+            "1. Click Exam Rx ",
+            "*  A message is posted that the scan hardware resource is not available",
+            "2. Wait three minutes and click Exam Rx again to begin scanning."       
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+DOWNLOAD_SOFTWARE
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to download software?", 
+        "text": [
+             "1. From the Automatic Software Updates screen, click Continue",      
+             "2. As updates become available, from the Automatic Software Updates screen, click Install Later or
+                 Install Now",
+			 "3. If Install Now is selected, view the progress bar, which indicates the install progress. If Install Later is
+                 chosen, you will be asked again on the next reboot to install the software update."	 
+        ]
+
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+MEMO_FOR_SERVICE_ENGINEER
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "how to leave a messege for service engineer? ", 
+        "text": [
+             "1. From the Feature Status area, click message area",
+             "2. From the message screen, click Memo",
+             "3. Place the cursor in the menu area and type and Enter a message",
+             "4. Click Save",
+             "*  The message displays in the log file."       
+        ]
+      }
+    ]
+  ]
+}
