@@ -1,0 +1,372 @@
+###CHAPTER 18_PROTOCOLS###
+ 
+
+PROTOCOL_SELECTION_SCREEN
+
+ {
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to view protocol selection screen?", 
+        "text": [
+          "1.Click Protocol Management, to view the Protocol Selection screen."        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+USE_PROTOCOLS
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to use protocols?", 
+        "text": [
+          "1. enter the patient information in the Exam Rx area",
+          "2. choose a protocol from one of the four protocol locations (User, GE, Service, or Most Recent)",
+          "3. Once you choose the area you wish to get the protocol from, then you select an anatomical area and the
+              protocol you wish to use",
+          "4.Once the protocol is chosen,the scanning sequence is activated",
+          "5. All parameters for scanning a patient can be set up in a protocol."  
+                  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+BUILD_OR_EDIT_PROTOCOL
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the considerations while building or editing a protocol?", 
+        "text": [
+          "Copy orientation and patient position is a feature that adjusts the patient orientation and position
+           based on the prior series. For example, if the patient orientation and position is supine feet first, and
+           the scout for the patient you are currently scanning, is prone,feet first,after the scout is acquired and
+           next series is selected, the orientation and position values set in the protocol are automatically
+           changed to the scout values",
+          "Copy forward is a feature that allows you to duplicate the following scan parameters to R2 to R10 or
+           the next series",
+          "*Interval",
+          "*Tilt",
+          "*DFOV",
+          "* R/L and A/P centers",
+          "To activate copy forward, type "d" or "D" in the parameter text field."
+      }
+    ]
+  ]
+}
+
+
+
+BUILD_OR_EDIT_PROTOCOLF_1
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to edit or build protocol?", 
+        "text": [
+          "1.  Click Protocol Management",
+          "2.  On the Protocol Selection screen, click User",
+          *    If you wish to create or edit pediatric protocols, click Pediatric",
+          "*   There is space for 90 protocols in each of the Adult anatomical areas",
+          "*   For the color coded Pediatric anatomical areas, there is space for 90 protocols in each of the
+               different weight classifications. TheHead,Orbit, and Miscellaneous are not color coded",
+		  "*   There is a total of 6,840 available user selected protocols to build",
+          "3.  Select an anatomical region',
+          "*   Click the arrow up or down to view a list of 15 protocols at a time",
+          "*   Click and drag the scroll bar to move quickly through all 90 protocols",
+          "4.  Click Edit if you are making changes to an existing protocol",
+          "5.  Select a blank protocol space, click New type the name of protocol and press Enter",
+          "*   Any name may be used. Itis helpful if you choose a name thatreflects whatthe protocol ismeant
+               to be used for(e.g., Routine Head, Trauma Spine, Chest/Abd/Pelvis)",
+          "*   The protocol name can be up to 60 characters",
+          "*   The backslash (\) character should not be used",
+          "6.  The system defaults to Scout series the first time you are building/editing a protocol. For subsequent
+               series, click Create New Series and select the type of series to be built",
+          "*   In most cases, a scout series is built first because this allows for more precise scanning. A scout
+               must be programmed first if it is to be displayed automatically with Show Localizer",
+          "*   Auto mA and Smart mA require a scout to be acquired in order to generate a mA table",
+          "7.  Click OK",  
+		  "8.  Set the patient position",
+          "*   Click the direction of the arrow above the model will change top/bottom directions orrotate the
+               model with a range of 90 degrees",
+          "*   Click Copy Patient Orientation, Patient Position, Anatomical Reference,to copy the patient
+               orientation from the previously scanned series,regardless of what is in the protocol",
+          "9.  Click Anatomical Reference and assign a two letter abbreviation forthe zero point (landmark). Click
+               OK to confirm your change or click Cancel to exit the Anatomical Reference screen with no change",
+          "10. Select series parameters: archive, network, filming options, if desired",
+          "*   Click AutoStore to automatically transfers the image at an exam level to a remote storage device
+               such as PACS1 when the exam ends",
+          "*   Click Auto Transferto automatically send images at an exam or image level to one of up to four
+               destinations. Follow these steps for each host selection",
+          "a.  Select a host",
+          "b.  Select transfer by exam or image",
+          "c.  Click OK',
+          "*   By Image: images are transferred in groups of 50.Only prospective images are transferred
+               when using this mode",
+          "*   By Series: each series is transferred after it is completed",
+          "*   By Exam:the entire exam is transferred afteritis completedwith the End Exam operation.Any Screen Save, Reformat, 3D,Navigator,Dentascan, Retrospective, images created before the
+               exam is ended are transferred. The Dose Report is automatically sent when Auto Transfer By Exam is selected",
+          "*   Click Dose Report Auto Transfer. From the Dose Report Auto Transfer screen complete the
+               following",
+          "a.  Select a host",
+          "b.  ClickOK",
+          "*   This automatically transfers the dose information for both the Dose Report and the DICOM2
+               Structured Dose Report to up to four different locations. This is used to transferthe dose
+               information when Auto Transfer By Image or By Series is selected on the Recon tab for Scouts
+               and PMR R1 to R10",
+		  "11. Set the Scout parameters. Set the technique factors low",
+		  "*   Define the Start/End locations",
+          "*   Select the kV",
+          "*   Select the mA",
+		  "*   The Scout Plane designates what type of scout is being acquired.Only 0, 90, 180, and 270 can be
+               used with Show Localizer",
+          "*   Choose an Auto Voice message",
+          "*   The language is set by the service engineer",
+          "*   Multiple languages are available for Auto Voice messages 1, 2, or 3",
+          "*   Set the W/L",
+          "12. Click Create New Series",
+          "13. Click Axial and Create After",
+          "14. Prescribe the parameters for the series."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+SET_THE_SCAN_PARAMETERS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to set the scan parameters?",
+        "text": [
+          "a. Adjust the Graphic Rx",
+          "b. Setthe timing parameters",
+          "*  If anyofthe values in Start/EndLocation,NumberofImages,Slice Thickness,orImage Interval
+              are changed from the original value,the system automatically adjusts any necessary values
+              to maintain the signalto noise. For example, if the number of images is decreased,the system
+              automatically adjusts the end location. The system highlights any adjusted value in orange
+              and changes any necessary graphic representations on the scout."
+
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+SET_UP_AUTO_VOICE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to set up auto voice?",
+        "text": [
+		"a. Set the recon parameters",
+        "b. Set the film parameters",
+        "c. Apply any additional scan features",
+        "*  The data acquired for all other series is different than data acquired for scout images. This
+            means that features such as Patient Position and Auto Voice must be set or activated again
+            for this series",
+        "*  If the patient orientation does not match the scout forthe current series, AutomA/SmartmA
+            are not enabled",
+        "*  Click Copy Orientation, Patient Position, Anatomical Reference,to copy the patient
+            orientation from the previously scanned series, regardless of what is in the protocol",
+        "*  If Auto Store/AutoTransfer were set forthe exam scout image, they are automatically set for
+            this series."
+          
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+PROTOCOL_TO_EMERGENCY_PATIENT
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to link a protocol to emergency patient?",
+        "text": [    
+          "1. Click Protocol Management",
+          "2. On the Protocol Selection screen, click Emergency Patient Protocol",
+          "*  If you wish to build or edit adult or pediatric protocols, refer to Build or edit a protocol section",
+          "3. On the Emergency Protocol screen, click one Protocol title button from the nine icon selections",
+          "4. Click Link",
+          "5. On the Protocol Selection screen, select an anatomical region",
+          "*  Click the arrow up or down to view a list of 15 protocols at a time",
+          "*  Click and drag the scroll bar to move quickly through all 90 protocols",
+          "*  Only the protocols in User tab are available",
+          "6. Select an existing protocol, then click OK",
+          "*  Click Cancel to cancel the protocol link",
+          "7. On the icon selection screen, select the desired icon",
+          "*  Displays Adult icon selection popup when the linked protocol is in 1.x to 10.xx",
+          "*  Displays Pediatric icon selection popup when the linked protocol is in 11.x to 20.xx",
+          "8. Click Quit."
+  .
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+SET_PROTOCOL_AS_DEFAULT
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to set protocol as default?", 
+        "text": [
+          "1. Click Protocol Management",
+          "2. On the Protocol Selection screen, click GE or User",
+          "3. Click the desired anatomical body part to view the protocols",
+          "4. From the Anatomical Protocol list, click a protocol and then click Set as Default",
+          "* Only one protocol in each list can be set as the default",
+          "* Default protocols can not be set in the Pediatric color coded areas",
+          "* The default protocol is highlighted in yellow."        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+COPY_AND_PASTE_A_PROTOCOL
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to copy and paste a protocol?", 
+        "text": [
+          "1. Click Protocol Management",
+          "2. From the Protocol Selection screen, click the anatomical selector you wantto copy from (GE,User, or
+              MostRecent)",
+          "3. Select the protocol you want to copy",
+          "4. Click Copy",
+          "5. Click  the anatomical selector to where you want to paste the protocol",
+          "6. Click on an empty protocol list number and then click Paste",
+          "7. Rename the protocol, if necessary",
+          "a. Click the protocol",
+          "b. Highlight the text and type and Enter a new name",
+          "8. Click Done."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+DELETE_A_PROTOCOL
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to delete a protocol?", 
+        "text": [
+          "1. Click Protocol Management",
+          "2. From the Protocol Selection screen, click the anatomical selectorfrom where you want to delete a
+              protocol",
+          "*  You can only delete from the User or Service protocol selectors",
+          "3. Select the protocol you want to delete",
+          "4. Click Delete",
+          "5. Click OK to the confirmation prompt",
+          "6. Click Done."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+PROTOCOL_LINK_FOR_EMERGENCY_PATIENT
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to delete a protocol link for emergency patient?", 
+        "text": [
+          "1. Click Protocol Management",
+          "2. On the Protocol Selection screen, click Emergency Patient Protocol",
+          "3. On the Emergency Protocol screen, click one Protocol title button of nine selections",
+          "4. Click Delete Link."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
