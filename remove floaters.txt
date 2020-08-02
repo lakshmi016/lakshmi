@@ -1,0 +1,19 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to remove floaters?", 
+        "text": [
+          "1.open reformat",
+          "2. Performasegmentation",
+          "3. Click the Segment tab",
+          "4. Click the Advanced Processing icon",
+          "5. Click the view of interest and click Filter Floaters",
+          "6. Click Filter Size and select Small, Medium, Large, or Custom",
+          "7. Click Apply",     
+        ]
+      }
+    ]
+  ]
+}

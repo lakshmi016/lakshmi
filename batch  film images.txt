@@ -1,0 +1,16 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to set up a batch rotation of images to film/save?", 
+        "text": [
+           "1.OpenReformat",
+           "2. Click the Film/Save tab",
+           "3. Click Batch",
+           "4. On the Batch screen, click Rotate",        
+        ]
+      }
+    ]
+  ]
+}

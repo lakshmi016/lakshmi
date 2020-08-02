@@ -1,0 +1,19 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to refine the vr opacity of an image?", 
+        "text": [
+          "1.OpenReformat",
+          "2. With a VR image displayed, click the VR tab",
+          "3. Click Basic VR Settings",
+          "4. Place the 3D cursor on the anatomy of interest in any multiplanar view",
+          "5. ClickAutoFit",
+          "6. Hold down the middle mouse button and move the mouse up and down to refine the VR opacity",
+          "7. Click Save New VR Settings to save setting as a new VR preset."         
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to re rotate images?", 
+        "text": [
+          "         
+        "1. Click the appropriate arrow to indicate rotation direction",
+        "2. Type in the number of images or angle between images in the appropriate field",
+        "*Modifying one of these parameters updates the other",
+        "3. Type in the FOV",
+        "4. Select the desired output mode from the menu",
+        "*Choose Print to send generated images to default printer(setup the Format and the display of a
+         ReferenceImage)",
+        "* Choose Save to save generated images in a new series in the Browser",
+        "*Choose Print/Save to film the generated images from a default printer and save them in a new
+        series",
+       "5. Click OK."
+       ]
+      }
+    ]
+  ]
+}

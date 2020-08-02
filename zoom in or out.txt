@@ -1,0 +1,22 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to zoom in or out?", 
+        "text": [
+          "1.OpenReformat",
+          "2. With a VR image displayed, click the VR tab",
+          "3. Click Advanced VR Settings",
+* Read the text on the tab for more information.
+          "4. Click and drag the red box in the lower window (which represents the scale of voxel values
+          displayed) left or right to shift the display",
+          "5. Click the zoom icons the upper right corner to zoom in and out of the image",
+*Or,click ontop-right button(zoomdisplay),and thenclick anddrag onthe mainVR ControlDisplay
+(a red mask will appear) to define a range of interest.
+         "6. Right-mouse click to return to the original histogram range      
+        ]
+      }
+    ]
+  ]
+}

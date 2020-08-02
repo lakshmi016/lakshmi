@@ -1,0 +1,27 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to create a multi-vr object?", 
+        "text": [ 
+          "1.open reformat",  
+          "2. Click the Segment tab",
+          "3. Select Auto Select",
+          "4. Selectthebuttoncorrespondingtothe structureto add(SmallVessel/Structure /Bone) andclickAdd",
+          "5. Click Yes to clear the upper left viewport",
+          "6. From any 2D view, click and hold the left mouse button on the object you want to add",
+          "7. Set left mouse to Select mode",
+          "8. Drag the VR viewport and drop it on the top left viewport of the isolated object where "Drop here to
+              mergeview" appears",
+          "9. Click the VR tab",
+          "10. Click MultiObjects",
+          "11. On the Multi-object screen,roll over Object 1 and Object 2. The corresponding object appears in the
+leftwindow",
+          "12. Select one object and adjust its transparency",
+          "13. Click on the eye to hide or show the corresponding object on the active viewport".        
+        ]
+      }
+    ]
+  ]
+}

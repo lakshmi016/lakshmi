@@ -1,0 +1,20 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change a colour?", 
+        "text": [
+          "1.open reformat",  
+          "2. With a VR image displayed, click the VR tab",
+          "3. Click Advanced VRSettings",
+          "4. Click the box next to the word Color",
+          "5. Click the arrow on the Colors button",
+          "6. Select a color, or click More Colors to display the color wheel",
+          "7. On the color wheel, drag the black circle in the color wheel to the desired color",
+          "8. ClickDone."
+        ]
+      }
+    ]
+  ]
+}

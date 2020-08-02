@@ -1,0 +1,21 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to threshold the image and keep only voxels within a specified range of value?", 
+        "text": [
+          "1.open reformat",
+          "2. Click the Segment tab",
+          "3.Click Threshold",
+          "4.On the Threshold screen, select the desired image from which you want to threshold",
+          "5.Adjust the range of voxel values using eitherthe sliders ortyping in a minimum and maximum value",
+          "6.Click Apply Threshold to display only the part of the 3D volume with voxel values inside the set range",
+          "7.To further refine segmentation, select the object on the viewport and click",
+          * Remove Object to remove all voxels connected to the object",
+          * Keep Object to remove all objects not connected to the object."      
+       ]
+      }
+    ]
+  ]
+}

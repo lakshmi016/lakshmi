@@ -1,0 +1,30 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": " How to define a set of oblique planes adjusting settings (range, angle, position) from a grid on
+                  a reference image?", 
+        "text":[
+              "1. open reformat",
+              "2. Click Film/Save tab",
+              "3. Click Batch",
+              "4. On the Batch screen, click the view to be used as the reference image",
+              "5. Click the Oblique tab to display a grid used to define the oblique planes",
+              "6. Enter a value forthe Number of Images, Spacing Between Images, Slice Thickness, Mode (Average,
+               MIP, MIN, VR), and FOV",
+              "7. Select the desired output mode from the menu",
+              * Choose Print to send generated images to default printer (setup the Format and the display of a
+              Reference Image)",
+              * Choose Save to save generated images in a new series in the Browser",
+              * Choose Print/Save to film the generated images from a default printer and save them in a new
+              series",
+             "8. Click OK",
+              * The Spacing between views and slice thickness can be set independently of each other creating a
+              gap, contiguous or overlapped images.
+              
+       ]   
+      }
+    ]
+  ]
+}

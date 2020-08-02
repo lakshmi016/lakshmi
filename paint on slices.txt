@@ -1,0 +1,26 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to draw contours of the structure of interest on different slices?", 
+        "text": [
+          "1.open reformat",  
+          "2.Click the Segment tab",
+          "3. Click the Paint on slices icon',
+          "4. Move the 3D cursor to the edge of the feature of interest",
+          "5. If desired,click Edge Attraction to automatically refine the drawn contours,adjusting them to nearby
+            structure edges",
+          "6. Press Shift and click to deposit the cursor",
+          "7. Release Shift and click and drag the 3D cursor to define the area",
+          "8. Release the left-mouse button to connect last point to first point",
+          "9. Move to the next slice on which you want to paint",
+          *It is not necessary to define contours on every slice",
+          *The contours interpolates to the intermediate slices",
+          "9. Repeat the process until your reach the last slice containing the structure to contour",
+          "10. Click Apply",
+       ]
+      }
+    ]
+  ]
+}

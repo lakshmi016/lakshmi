@@ -1,0 +1,21 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add colours?", 
+        "text": [
+           "1. open reformat",
+           "2. With a VR image displayed, click the VR tab",
+           "3. Click Advanced VRSettings",
+           "4. Place the 3D cursor on the anatomy of interest",
+           "5. Click Add."  
+                      
+        ]
+      }
+    ]
+  ]
+}
+
+
+

@@ -1,0 +1,26 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How  to automatically remove anatomy from reformatted images?", 
+        "text": [
+          "1. open reformat",   
+          "2. Click the Segmenttab",
+          "3. Click Auto Select",
+          "4.Select a tool for segmenting",
+          *Click Any structure for vessels greater than 5 mm or soft tissue. Click and hold until area of
+           interest is filled",
+          * Click Small vessel (if available) for vessels less than 5 mm. Click once to fill and track vessel.
+          * Click Bones (if available) to segment bones",
+          * Click Pick from VR",
+          "5. Click Add or Remove depending on the desired outcome",
+          "6. Scroll through the axial images at minimum slice thickness",
+          * If any vessels are contoured in green, put the cursor on the missing vessel in the 2D view andclick
+          and hold until the area of interest is filled",
+          "7. Repeat steps to complete all missing vessels."    
+        ]
+      }
+    ]
+  ]
+}

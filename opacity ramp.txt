@@ -1,0 +1,23 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to modify opacity ramp?", 
+        "text": [
+          "1.open reformat",  
+          "2.With a VR image displayed, click the VR tab",
+          "3. Click Advanced VR Settings",
+          "4. Click and drag the solid white boxes left orrightto independently modify the upper orlowerrange of
+the ramp",
+"5. Click and drag the lower white box to the right to remove soft tissue or noise from an image",
+"6.Click the white box at the top and drag up or down to modify the overall opacity of the rang. This
+affects the opacity of all visible voxels",
+"7. Click the solid blue box on the rang and drag left or right to change the upper and lower values
+applied to the ramp."
+       
+        ]
+      }
+    ]
+  ]
+}

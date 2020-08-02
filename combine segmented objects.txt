@@ -1,0 +1,32 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to t combine 3D segmented objects together?", 
+        "text": [
+          "1.open reformat",     
+          "2. Select and view the images to be used for combining objects.",
+*All objects must originate from the same master volume",
+"3. Click the Segment tab",
+"4. Perform segmentation to generate objects to combine using any segmentation technique(threshold,
+Auto Select, paint, etc.)",
+"5. Display objects to combine in separate views",
+"6. Set the mouse mode to Select mode",
+"7. Double-click to isolate first view of interest",
+"8. Single-click to isolate second view of interest",
+* Views of interest display red and green borders. Other views should not have color borders",
+* To adjust red and green borders, click the view to setred, the other view will turn green",
+"9. Select an operation (results of the operation display in the red views)",
+"10. Click Advanced Processing",
+* Click the Subtraction icon to remove all the voxels in the primary view that also exist in
+the secondary view",
+* Before subtracting, make sure the borders of the view are displayed as: Red - Green = Red",
+* Click the Intersection icon to keep only the voxels that exist in the same location in
+both objects",
+* Click the Addition icon to keep all the voxels that exist in either of the objects."
+        ]
+      }
+    ]
+  ]
+}
