@@ -1,0 +1,850 @@
+##chapter 19## data privacy
+
+OPEN_EA3
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to open EA3 interface?", 
+        "text": [
+          "1. Click the Service icon",
+          "2. From the Service desktop, click Utilities icon",
+          "3. From the Utilities screen, click EA3 Admin Browser", 
+          "4. From the EA3 Administration screen, type your Username and Password",
+          "*  Consult your service engineer or application representative for user name and login",
+          "5. Click Login",
+          "6. From the Local Users or Group tab, select a group or user","
+		  "*  Only one group and user can be in context at a time. If you choose multiple users, the system
+              selects the top user in your selected list. Once a user or group is in context, you can make any
+              necessary modifications to that user or group",
+          "*  If there are no usersor groups,then there no items in context.All ofthe buttons inthe centerpanel
+              are disabled until a user or group is added."		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ADD_OR_REMOVE_USERS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add or remove users?", 
+        "text": [
+          "1. open EA3",     
+		  "2. From the Local Users tab, enter desired selections",
+           "* Max Logon Attempts Before Lock - the number of failed login attempts you can make before
+              your account is locked for a certain number of minutes.When your account is locked, you cannot
+              login,even if you provide the correct username/password combination. Either the specified time
+              must elapse before you login again, or a user with an ADMIN role must login to the EA3
+              Administration component to unlock you. Locking only applies to local users. Enterprise user
+              locking is managed by the enterprise server",
+              "If the administrator forcefully locks your account, the lock duration does not apply. You are 
+              locked until the administration unlocks you",
+           "* Lock Duration (Minutes) - the number of minutes you stay locked if you become locked due to
+              failed login attempts",
+           "* Password Rules",
+           "  MinimumPassword Length -the minimum lengthof a newpassword. If a password is below
+              the minimum length already, setting this value has no effect on the password. For example, if
+              your password is 8 characters,and someone changes the minimum password length to 10
+              characters, the 8 character password is still okay. However, next time you change your
+              password, you must choose a password that is 10 characters or greater. The minimum
+              password length feature only applies to local users. Password length restrictions for enterprise
+              users are managed by the enterprise server",
+           "  Your password cannot include your Logon Name",
+           "  Optional - Advanced Password Rules – provides a more secure 14 character password format. If you
+              select Advanced Password Rules, the system requires that your password must",
+           "* Include at least one uppercase alphabetic character",
+           "* Include one lowercase alphabetic character",
+           "* Include at least one numeric character",
+           "* Include one non-alphanumeric (special) character (any alpha-numeric character)",
+           "* Cannot contain more than 3 consecutive characters or a Whitespace character",
+           "3.Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+           "* If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+           "* If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+CHANGE_USER_GROUP_MEMBERSHIPS
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change user group memberships?", 
+        "text": [
+          "1. open EA3",     
+		  "2. From the Local Users tab, enter desired selections",
+           "* Max Logon Attempts Before Lock - the number of failed login attempts you can make before
+              your account is locked for a certain number of minutes.When your account is locked, you cannot
+              login,even if you provide the correct username/password combination. Either the specified time
+              must elapse before you login again, or a user with an ADMIN role must login to the EA3
+              Administration component to unlock you. Locking only applies to local users. Enterprise user
+              locking is managed by the enterprise server",
+              "If the administrator forcefully locks your account, the lock duration does not apply. You are 
+              locked until the administration unlocks you",
+           "* Lock Duration (Minutes) - the number of minutes you stay locked if you become locked due to
+              failed login attempts",
+           "* Password Rules",
+           "  MinimumPassword Length -the minimum lengthof a newpassword. If a password is below
+              the minimum length already, setting this value has no effect on the password. For example, if
+              your password is 8 characters,and someone changes the minimum password length to 10
+              characters, the 8 character password is still okay. However, next time you change your
+              password, you must choose a password that is 10 characters or greater. The minimum
+              password length feature only applies to local users. Password length restrictions for enterprise
+              users are managed by the enterprise server",
+           "  Your password cannot include your Logon Name",
+           "  Optional - Advanced Password Rules – provides a more secure 14 character password format. If you
+              select Advanced Password Rules, the system requires that your password must",
+           "* Include at least one uppercase alphabetic character",
+           "* Include one lowercase alphabetic character",
+           "* Include at least one numeric character",
+           "* Include one non-alphanumeric (special) character (any alpha-numeric character)",
+           "* Cannot contain more than 3 consecutive characters or a Whitespace character",
+           "3.Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+           "* If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+           "* If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+CHANGE_USER_NAMES
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change user names?", 
+        "text": [
+          "1. open EA3",     
+		  "2. From the Local Users tab, enter desired selections",
+           "* Max Logon Attempts Before Lock - the number of failed login attempts you can make before
+              your account is locked for a certain number of minutes.When your account is locked, you cannot
+              login,even if you provide the correct username/password combination. Either the specified time
+              must elapse before you login again, or a user with an ADMIN role must login to the EA3
+              Administration component to unlock you. Locking only applies to local users. Enterprise user
+              locking is managed by the enterprise server",
+              "If the administrator forcefully locks your account, the lock duration does not apply. You are 
+              locked until the administration unlocks you",
+           "* Lock Duration (Minutes) - the number of minutes you stay locked if you become locked due to
+              failed login attempts",
+           "* Password Rules",
+           "  MinimumPassword Length -the minimum lengthof a newpassword. If a password is below
+              the minimum length already, setting this value has no effect on the password. For example, if
+              your password is 8 characters,and someone changes the minimum password length to 10
+              characters, the 8 character password is still okay. However, next time you change your
+              password, you must choose a password that is 10 characters or greater. The minimum
+              password length feature only applies to local users. Password length restrictions for enterprise
+              users are managed by the enterprise server",
+           "  Your password cannot include your Logon Name",
+           "  Optional - Advanced Password Rules – provides a more secure 14 character password format. If you
+              select Advanced Password Rules, the system requires that your password must",
+           "* Include at least one uppercase alphabetic character",
+           "* Include one lowercase alphabetic character",
+           "* Include at least one numeric character",
+           "* Include one non-alphanumeric (special) character (any alpha-numeric character)",
+           "* Cannot contain more than 3 consecutive characters or a Whitespace character",
+           "3.Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+           "* If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+           "* If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+CHANGE_USER_PASSWORDS
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change user passwords?", 
+        "text": [
+          "1. open EA3",     
+		  "2. From the Local Users tab, enter desired selections",
+           "* Max Logon Attempts Before Lock - the number of failed login attempts you can make before
+              your account is locked for a certain number of minutes.When your account is locked, you cannot
+              login,even if you provide the correct username/password combination. Either the specified time
+              must elapse before you login again, or a user with an ADMIN role must login to the EA3
+              Administration component to unlock you. Locking only applies to local users. Enterprise user
+              locking is managed by the enterprise server",
+              "If the administrator forcefully locks your account, the lock duration does not apply. You are 
+              locked until the administration unlocks you",
+           "* Lock Duration (Minutes) - the number of minutes you stay locked if you become locked due to
+              failed login attempts",
+           "* Password Rules",
+           "  Minimum Password Length -the minimum lengthof a newpassword. If a password is below
+              the minimum length already, setting this value has no effect on the password. For example, if
+              your password is 8 characters,and someone changes the minimum password length to 10
+              characters, the 8 character password is still okay. However, next time you change your
+              password, you must choose a password that is 10 characters or greater. The minimum
+              password length feature only applies to local users. Password length restrictions for enterprise
+              users are managed by the enterprise server",
+           "  Your password cannot include your Logon Name",
+           "  Optional - Advanced Password Rules – provides a more secure 14 character password format. If you
+              select Advanced Password Rules, the system requires that your password must",
+           "* Include at least one uppercase alphabetic character",
+           "* Include one lowercase alphabetic character",
+           "* Include at least one numeric character",
+           "* Include one non-alphanumeric (special) character (any alpha-numeric character)",
+           "* Cannot contain more than 3 consecutive characters or a Whitespace character",
+           "3.Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+           "* If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+           "* If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+LOCK_OR_UNLOCK_USERS
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to lock or unlock users?", 
+        "text": [
+          "1. open EA3",     
+		  "2. From the Local Users tab, enter desired selections",
+           "* Max Logon Attempts Before Lock - the number of failed login attempts you can make before
+              your account is locked for a certain number of minutes.When your account is locked, you cannot
+              login,even if you provide the correct username/password combination. Either the specified time
+              must elapse before you login again, or a user with an ADMIN role must login to the EA3
+              Administration component to unlock you. Locking only applies to local users. Enterprise user
+              locking is managed by the enterprise server",
+              "If the administrator forcefully locks your account, the lock duration does not apply. You are 
+              locked until the administration unlocks you",
+           "* Lock Duration (Minutes) - the number of minutes you stay locked if you become locked due to
+              failed login attempts",
+           "* Password Rules",
+           "  Minimum Password Length -the minimum lengthof a newpassword. If a password is below
+              the minimum length already, setting this value has no effect on the password. For example, if
+              your password is 8 characters,and someone changes the minimum password length to 10
+              characters, the 8 character password is still okay. However, next time you change your
+              password, you must choose a password that is 10 characters or greater. The minimum
+              password length feature only applies to local users. Password length restrictions for enterprise
+              users are managed by the enterprise server",
+           "  Your password cannot include your Logon Name",
+           "  Optional - Advanced Password Rules – provides a more secure 14 character password format. If you
+              select Advanced Password Rules, the system requires that your password must",
+           "* Include at least one uppercase alphabetic character",
+           "* Include one lowercase alphabetic character",
+           "* Include at least one numeric character",
+           "* Include one non-alphanumeric (special) character (any alpha-numeric character)",
+           "* Cannot contain more than 3 consecutive characters or a Whitespace character",
+           "3.Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+           "* If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+           "* If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+FORCE_USERS_TO_CHANGE_PASSWORDS_ON_NEXT_LOGIN
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to force users to change passwords on next login?", 
+        "text": [
+          "1. open EA3",     
+		  "2. From the Local Users tab, enter desired selections",
+           "* Max Logon Attempts Before Lock - the number of failed login attempts you can make before
+              your account is locked for a certain number of minutes.When your account is locked, you cannot
+              login,even if you provide the correct username/password combination. Either the specified time
+              must elapse before you login again, or a user with an ADMIN role must login to the EA3
+              Administration component to unlock you. Locking only applies to local users. Enterprise user
+              locking is managed by the enterprise server",
+              "If the administrator forcefully locks your account, the lock duration does not apply. You are 
+              locked until the administration unlocks you",
+           "* Lock Duration (Minutes) - the number of minutes you stay locked if you become locked due to
+              failed login attempts",
+           "* Password Rules",
+           "  MinimumPassword Length -the minimum lengthof a newpassword. If a password is below
+              the minimum length already, setting this value has no effect on the password. For example, if
+              your password is 8 characters,and someone changes the minimum password length to 10
+              characters, the 8 character password is still okay. However, next time you change your
+              password, you must choose a password that is 10 characters or greater. The minimum
+              password length feature only applies to local users. Password length restrictions for enterprise
+              users are managed by the enterprise server",
+           "  Your password cannot include your Logon Name",
+           "  Optional - Advanced Password Rules – provides a more secure 14 character password format. If you
+              select Advanced Password Rules, the system requires that your password must",
+           "* Include at least one uppercase alphabetic character",
+           "* Include one lowercase alphabetic character",
+           "* Include at least one numeric character",
+           "* Include one non-alphanumeric (special) character (any alpha-numeric character)",
+           "* Cannot contain more than 3 consecutive characters or a Whitespace character",
+           "3.Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+           "* If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+           "* If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ADD_A_LOCAL_USER
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add a local user?", 
+        "text": [
+          "1. Open EA3",
+          "2. From the Local Users tab, click Add Local User",
+          "3. From the pop-up panel, type information for each of the following",
+          "*  A unique user ID",
+          "*  Full Name",
+          "*  Password",
+          "*  Confirm Password",
+          "*  If an error occurs, a message box displays, and your changes are not committed to the database",
+          "*  Correct your errors and try again. Common errors include",
+          "a. User name and password cannot be the same",
+          "b. Password does not meet the minimum length requirements.Choose a longer password",
+          "c. Password and Confirm Password box do not match. Make sure the passwords match",  
+          "3. click add user."		  
+        ]
+
+      }
+    ]
+  ]
+}
+
+
+
+
+ADD_A_LOCAL_GROUP
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add a localf group?", 
+        "text": [
+          "1. Open EA3", 
+		  "2. From the Group tab, click Add Local Group",
+          "3. From the Add Local Group window, type and Enter a unique group name",
+          "*  If an error occurs, a message box displays, and your changes are not committed to the database",
+              Correct your errors and try again. Common errors include",
+          "*  Group name already exists in the database",
+          "*  Application session timeout",
+		  "4. Click Add Group",
+          "*  The group is highlighted in the Local Groups list box. All information and buttons in the center
+              panel refer to the highlighted group",
+          "5. To change a group's roles, select the Roles option boxes and click Apply Roles",
+          "*  A green label confirms the applied roles",
+          "*  An error message box displays if it is unsuccessful."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ADD_MEMBERSHIPS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add memberships", 
+        "text": [
+          "1. Open EA3",
+		  "2. From the Groups tab, select a group in the Local Groups area",
+		  "3. In the Group Members area, click Add Membership",
+          "*  A panel lists all the users that are eligible to be added to the selected group",
+		  "4. Select the users you want to add to the group",
+          "*  If no users are eligible to be added to this group, an error message displays",
+		  "5. Click Add To Group."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ADD_AN_ENTERPRISE_GROUP
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add an enterprise group?", 
+        "text": [
+		  "1.Open EA3",
+          "2. From the Group tab, click Add Enterprise Group",
+          "3. From the Add Enterprise Group pop-up window, type and Enter a unique group name",
+          "*  If an error occurs, a message box displays, and your changes are not committed to the database",
+              Correct your errors and try again. Common errors include",
+          "*  Group name already exists in the database",
+          "*  Application session timeout",
+		  "4. Click Add Group",
+          "*  This action does not add an enterprise group, rather it provides EA3 the ability to manage roles
+              for that group that already exist on the Enterprise directory server. For example, if you add a
+              group All Employees as an Enterprise group to EA3, and assign that group with the STANDARD
+              role,then any enterprise user that logs in through EA3 and belongs to the All Employees group has
+              the STANDARD role",
+          "*  You cannot manage the group memberships for Enterprise groups. This is managed by the
+              directory server, not EA3. Therefore, whenever an Enterprise group is in context, both the Add
+              Membership and Remove Membership buttons are blocked. This does not mean that no one
+              belongs to the Enterprise groups, butratherthat this is managed by the directory server and not
+              EA3",
+          "*  Once an enterprise group is added, it is automatically highlighted in the Enterprise Groups list box
+and it is in context1."
+         ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ADD_OR_REMOVE_A_USER_FROM_A_GROUP
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add or remove groups listed in the Groups list?", 
+        "text": [
+          "1. Open EA3",
+          "2. Select the Local Users tab",
+          "3. In the Local Users area, select the user you want to modify",
+          "*  The groups that this user is currently a member are listed in the Groups area",
+          "4. In the Groups area, click Add ToGroups or Remove From Groups",
+          "5. Select the group you wish to add remove for this user",
+          "6. Click Add Membership or Remove Membership."		  
+        ] 
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+CHANGE_USERS_FULL_NAME
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change a users name?", 
+        "text": [
+          "1. Open EA3",  
+          "2. From the Local Users tab, select a user",
+          "3. Click Change Name",
+          "4. From the Change  Name window, type a new name",
+          "5. Click Confirm Change."	  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+REMOVE_A_USER
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to remove a user ?", 
+        "text": [
+          "1. Open EA3",
+		  "2. From the Local Users tab, select a user",
+          "3. Click Remove User",
+          "4. From the Confirm Removal window, click Confirm Removal."       
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+REMOVE_A_GROUP
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to remove a group?",
+        "text": [
+          "1. Open EA3",
+		  "2. From the Group tab, select a group",
+          "3. Click Remove Group",
+          "4. From the Confirm Removal window, click Confirm Removal"
+.
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+REMOVE_A_MEMBERSHIP
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to remove a membership?",
+        "text": [
+          "1. Open EA3",
+		  "2. From the Group tab, select a group",
+		  "3. Click Remove Membership",
+          "*  A panel lists all users that are eligible to be removed from the highlighted group. Select users you
+              want to remove from the group",
+          "* If no users are eligible to be removed from this group, an error message box displays",
+          "4. Click Remove From Group."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+CONFIGURE_EA3_PROPERTIES
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to configure EA3 application properties?",
+        "text": [
+          "1. Open EA3",
+		  "2. From the Applications screen, enterthe desired selections",
+          "*  Enable Authorization - enable or disable authorization. If authorization is enabled, anyone
+              logging in through EA3 (both local and enterprise users) must have a role. Anyone without a role
+              is denied access, if authorization is turned on. The User role does not matterforlogging into EA3,
+              however, other EA3 client applications may restrict which roles can login",
+          "*  Emergency Logon Allowed - enable or disable emergency access. If EA3 is used in GUI mode, this
+              entry decides whether or not to display the Emergency login button. If this is disabled, emergency
+              user access is prevented",
+          "*  Configurable delay after authentication failure (second) – is delay defined by administrator
+              for number of seconds delay after system failed to authenticate logon",
+          "*  Emergency Roles -the roles assigned to the emergency user. The defaults allow an admin to
+              assign a Standard user role, Limited User role, or both roles",
+		  "*  Inactivity Timeout (minutes)- The minutes that must elapse without any mouse/keyboard, etc.
+              activity before a timeout is generated. When a timeout is generated, the EA3 logon screen is
+              displayed. This value can be any positive integer, or it can be 0. If the value is 0, this indicates NO
+              inactivity timeout; regardless of how much time has elapsed the system does not timeout",
+		  "*  Display Last Logon Name - enable or disable to display the username of the last user that has
+              logged in on the EA3 logon screen',
+          "*  Administrator Message-under certain circumstances/ error conditions,the user of EA3 is asked
+              to contact an administrator. This field allows the administratorto specify contact details for
+              himself/ herself and a custom message",
+          "*  Emergency Prompt - the text that is displayed to any user logging in as emergency. The user is
+              asked to enter information (usually their actual user name). This text appears in that prompt for
+              information",
+          "*  Custom message to display on logon page - the text that is displayed to any user logging. The
+              user is asked to enter information (usually any message for logon user). This text appears on
+              logon screen",
+		  "3. Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved",
+          "*  If there was a problem with making the changes (such as an invalid value or a problem contacting
+              the back-end Servlet) an error message box appears with a description of the error",
+          "*  If the changes are successful, then a brief message appears indicating that the changes were
+              applied in a green label."
+		 ]    
+      } 
+    ]
+  ]
+}
+
+
+
+
+
+CONFIGURE_ENTERPRISE_TAB
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to configure the properties necessary to make a connection to an Enterprise directory
+                 server?",
+        "text": [
+             "1. Open EA3",
+			 "2. From the Enterprise tab, enter desired selections",
+             "*  Enable Enterprise Authentication-login authorization. If it is unchecked,only local EA3 user scan
+                 log in. If it is checked, both local users and enterprise EA3 users can log in and local EA3 user
+                 database is tried first",
+             "*  Cache Enterprise Users - enables Enterprise users to be cached once they successfully login. If
+                 the Enterprise directory serveris not available due to network or other issues the following
+                 scenarios occur",
+             "*  If it is checked, a local record of an Enterprise user is kep and the you can login",
+             "*  If it is unchecked, an Enterprise user is denied access",
+             "*  Hashed passwords are cached, the actual password is not cached",
+             "*  Enterprise Authentication Latency (Seconds)-the time the EA3 login process wait for a response
+                 from the Enterprise directory server.Often times, there is a network latency when connecting to
+                 servers, which is dependent on your network configuration. If the amount of time is reached
+                 without a response from the directory server, the EA3 login process returns a failed login. A value
+                 of 5 seconds is typically enough time to allow a properly configured directory server to respond,
+                 without causing undue user annoyance",
+             "3. Modify properties inthe lower two boxes ofthe Enterprise tab to make the Enterprise directory server
+                 connection",
+             "4. Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+                 Configuration to undo any changes made that have not yet been saved."
+				
+			 
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+AUTO_CONFIGURATION
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to auto configure the system?",
+        "text": [
+          "1. Open EA3",
+		  "2. From the Enterprise tab, click Auto-detect Server Name",
+          "*  The system searches for the Server Name of the directory server",
+          "*  If the DNS allows service lookups, EA3 executes an auto-detection with the Enterprise Directory
+              Server. If it cannot find the server, it is not an error. Continue with these steps to configure the
+              Server",
+          "3. In the Server Configuration text field, type the Server Name orIP address of the Enterprise directory
+              server that EA3 should connect to",
+          "* The system must either have DNS enabled orthe system must have static information in a hosts
+              file (i.e.,/etc/hosts)",
+		  "4. Selectthe Authentication type the directory server supports",
+          "*  If it is a Microsoft Active Directory Server, typically select Kerberos. If it is a Novell e Directory
+              Server,typically select LDAP. If you do not know, check with the owner of the directory serverfor
+              information",
+          "*  If the enterprise server supports SSL connections, select the 'Use SSL' option",
+          "*  If you use LDAP authentication without SSL, passwords are sent in the clear. This is not
+              recommended. An alert is posted for this configuration. With kerberos and non-SSL, the
+              authentication is encrypted, but the LDAP traffic is not",
+		  "5. Click Test Connection to test if the machine can connect to the directory server",
+          "*  If the connection is successful, CONNECTION OK is displayed next to the Test Connection button",
+          "*  If the con nection is unsuccessful, CONNECTION BAD is displayed next to the Test Connection
+              button", 
+          "*  If the connection is bad, then there is a problem connecting to the directory server. Check the
+              following",
+          "*  IP/servername",
+          "*  if system has DNS running",
+          "*  if the system can resolve the IP address / server name",
+          "*  Once the Test Connection procedure indicates that the connection is good",
+		  "6. Once the Test Connection is successful, select the type of directory server, either Microsoft Active
+              Directory,Novell e Directory, or another",
+		  "7. Click Generate Defaults to populate the Realm Name, Format, DN, Login Attribute, First Name
+              Attribute,LastName Attribute,andGroupAttribute fieldswithdefault values forthat directory server
+              type",
+          "*  If the directory type is MSAD, both the realm name and the DN are populated",
+          "*  If the directory type is eDirectory, the realm name is left blank. If you are configuring a directory
+              server that is not MSAD or Novell eDirectory, the configuration must be done manually. Get the
+              correct LDAP property information from the owner of the directory server",
+          "*  If this is a non-MSAD, non-eDirectory server, or is a server with a non-default configuration,manually change some properties, as needed",
+		  "8. Enter a username and password of a user that resides on the directory server",
+          "9. Click Login and view the result information to see if the login is successful",
+          "*  The First Name, Last Name, and any group memberships forthe user are printed. If First Name,
+              LastName, or Group Memberships are not found, a warning is posted, which indicates that",
+          "*  the LDAP properties are mis-configured (i.e., FirstName Attribute, LastName Attribute, and/or
+              GroupAttribute)",
+          "*  the user does not have a First Name, Last Name, or any Group Memberships configured on the
+              Enterprise directory server",
+          "*  If you getthesewarnings,talk with the owner ofthe directory serverto verify you have everything
+              set up correctly",
+          "*  If the test login succeeded and you are satisfied with the first name, last name, and group
+              membership information,then your Enterprise directory serveris properly configured",
+         "10. Click Apply Configuration to accept your configuration changes. Alternatively, click Restore
+              Configuration to undo any changes made that have not yet been saved."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+SAVE_CHANGES
+
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to save changes in EA3? ",
+        "text": [
+         "* No changes are saved to EA3 on a tab unless you click Apply Configuration before you navigate to another
+            tab or click Confirmation on a popup panel. If there is more than one Apply Configuration button on a tab,
+            click the one associated with the data you changed (the buttons are grouped with the data they manage in
+            a bordered panel)",.
+         "* Click Apply Configuration or Restore Configuration and in 5 seconds a label appears indicating that the
+            changes have or have not been saved,respectively",
+         "* Enable Authorization",
+         "* Limited User",
+         "* Inactivity Timeout(Minutes)",
+         "* Emergency Prompt",
+         "* Apply Configuration."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
