@@ -1,0 +1,22 @@
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to arrange radial planes on 2d images?", 
+        "text": [
+          "1. Adjust the center of radial slices (A), first radial plane location (B), and the number of radial planes (C)
+             on the 2D reference image",
+          "2. Enter the Number of Images, Spacing between Images, Slice Thickness, Rendering Mode, and FOV",
+          "3. Select the desired output mode from the menu",
+          "* Choose Print to send generated images to default printer (setup the Format and the display of a
+             ReferenceImage)",
+          "* Choose Save to save generated images in a new series in the Browser",
+          "* Choose Print/Save to film the generated images from a default printer and save them in a new
+          series",
+          "4. Click OK."         
+        ]
+      }
+    ]
+  ]
+}
