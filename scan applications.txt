@@ -1,0 +1,1219 @@
+#chapter 10#scan applications
+
+
+ANRT_SCANNING
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to enable anrt scanning?", 
+        "text": [
+		     "Step 1: Set up a scanning plan",
+             "Step 2: In the ViewEdit area, press Recon",
+             "Step 3: In the Recon Setting area, press Recon Option",
+             "Step 4: In the XNR area, press On",
+             "Step 5:Continue to proceed with scanning according to the original plan",
+             ""XNR" will be displayed on the top left corner of an image."
+                  
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+MA_REDUCTION_GUIDANCE_SCAN
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": " How to aquire a scan using ma reduced value?",
+        "text": [
+             "Step 1: Set up a scanning plan",
+             "Step 2: Press mA in the ViewEdit area",
+             "Step 3: Press mA Reduction in the mA control area",
+             "Step 4: Enter the desired mA value",
+             "Step 5: Press OK in mA control",
+             "Step 6: Continue scanning according to the original plan."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+RECONSTRUCTION_OF_ASIR_IMAGES
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "When to reconstruct asir images?",
+        "text": [
+             "* Reconstruction of ASiR images can be set in advance during Recon1, and can be set in advance during
+                Recon2, Recon3... Recon10, or set during post-reconstruction",
+             "* If the post-reconstruction method is adopted, a
+                new series should be selected when applying ANRT reconstruction data."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+CONSTRAINTS_DURING_ASIR_AQUISITION
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": " What are the constraints that apply to the acquisition of data where ASiR will be applied?",
+        "text": [
+             "* ANRT can only be used for digital tilted images, tilt angle cannot be 0 degree",
+             "* When ANRT is being applied, 5 reconstruction calculation methods can be used, [STND], [STD+],
+                [BONE], [EDGE] and [DETL]",
+             "* ANRT is not compatible with any real-time interactive image modes, for example the SmartPrep
+                (baseline and monitoring images) and Biopsy modes",
+             "* ANRT is not compatible with the AutomA mode",
+             "* ANRT cannot be used when the actual scanning current is less than 50mA."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+EFFECTS_OF_REDUCED_MA_VALUES
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the effects of reduced ma values?",
+        "text": [
+             "* Applying this program, pressing the Reduce mA value button can make the system's ANRT function
+                automatically effective."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+MA_REDUCTION_VALUE_WHILE_SCANNING_A_HEAD 
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is the reduced ma percentage while scanning the head?",
+        "text": [
+             "*When scanning a head,the default mA value reduction percentage is 20%."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+MA_REDUCTION_VALUE_WHILE_SCANNING_LUMBAR_CERVICAL_VERTEBRAE 
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is the reduced ma percentage while scanning the lumbar an vertebrae?",
+        "text": [
+          "*When scanning the lumbar and cervical vertebrae, the default mA value reduction percentage is 30%."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+MA_VALUE_GUIDANCE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the factors to be considered when utilizing reduced mA values for guidance?",
+        "text": [
+             "* When the desired mA value is less than 50mA, the mA value reduction function will be ineffective".
+             "* When scanning the lumbar andcervical vertebrae, and the necessary mA value is between 50 mA and 75 mA, when doing a headscan and the necessary mA value is between 50mA and 65mA, [mA reduction] is effective, but when you press [Ok], [mA reduction] will not be usable and will return an operational message",
+             "* Further, the actual mA value displayed over the mA table is the necessary mA value",
+             "* The operational message will be displayed on the Message Board: The mA reduction function cannot be used, because the requested mA value reduction is less than 50mA",
+             "* When [mAReduction] is pressed, ifthe actual mA value and the necessary mA value are inconsistent, DR and the actual mA value will be displayed in the mA row",
+             "* When [mAReduction] is pressed,the [ANRT] button locatedin the Recon Option area will be enabled automatically."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ANRT 
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is anrt used for?",
+        "text": [
+          "*ANRT is a reconstruction technology used for decreasing the noise of 
+		   diagnostic images while preserving the structural detail information of
+		   these images. ANRT noise-reduction technology can, while maintaining image noise level,
+		   lessen the dose of some X-ray testing, or improve image noise level and image quality."
+        ]
+      }
+    ]
+  ]
+}
+
+
+ASIR
+What is asir used for?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is asir used for?",
+        "text": [
+          "*Adaptive Statistic alIterative Reconstruction (ASiR) is  a reconstruction technique designed to reduce noise 
+		    in diagnostic images while preserving the structure details in the image", 
+          "*ASiR noise reduction technique may allow forthe reduction of the x-ray 
+            dose in some studies while maintaining image noise levels or be applied to improve images
+			with an unacceptable level of noise."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+SNR_CALCULATION
+How to calculate snr?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to calculate snr?",
+        "text": [
+             "*The measurement involves calculating a signal delta divided by the standard deviation (noise)."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ASIR_GUIDANCE
+What are the factors to be considered while selecting asir recon mode?
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the factors to be considered while selecting asir recon mode?",
+        "text": [
+             "* ASiR is not compatible with Neuro 3D Filters (N1, N2, N3)".
+             "* ASiR is not compatible with any of the real time interactive image modes such as Smart Prep or
+                Biopsymode."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+IMAGE_RECONSTRUCTION
+What is image reconstruction?
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is image reconstruction?",
+        "text": [
+          "* Image with 100% noise reduction. 
+          "* There are 10 blending levels available which are simply the amount of noise
+		      reduction based on the maximum of the 100% image reconstructed with the original image data",
+          "* It is expected that confidently selecting the optimal amount of noise reduction and integrating 
+		     the reduction in dose possible wil lrequire some adapting on how this reconstruction technique works."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+BEFORE_USING_ASIR
+What are the things to be done before using asir?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the things to be done before using asir?",
+        "text": [
+             "* Before using ASiR, the site physicist, in collaboration with the Radiologist,
+		        should conduct image quality evaluations with varying degrees of ASiR and different
+		        scan techniques, both at routine dose and with decreased dose",
+             "* This should be done using your site's preferred method and phantoms. 
+             "* Using this information, an appropriate starting point for ASiR level and diagnostic
+			    scanning techniques can be incorporated into your site's protocols",
+             "* WhenASiR is usedfordose reductionorimage qualityimprovement,parameter settings 
+			    shouldbe made in steps and then reviewed for diagnostic image quality until the desired clinically 
+			    appropriate image quality is achieved."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+NOISE_INDUCTION_ADJUSTMENT_FACTORS
+How to calculate noise induction adjustment factor?
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to calculate noise induction adjustment factor?",
+        "text": [
+             "* Based on calculating the relative difference in measured noise standard deviation (SD) with Filtered Back Projection (FBP) and ASiR on a 20cm water
+                phantom "
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+MA_ADJUSTMENT_FACTOR
+How to caluculate ma adjustment factor?
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to caluculate ma adjustment factor?",
+        "text": [
+             "* These factors were calculated based on a simple inversion of the squared NI Adjustment Factors."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+ASIR_SLICE_MODE
+What is asir slice mode?
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is asir slice mode?",
+        "text": [
+          "* can be applied to acquisitions of any slice thickness and any acquisition mode where noise reduction is 
+		     in X and Y (2D)"'
+          "* can be applied to a range of slices."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+SCAN_WITH_ASIR
+How to aquire a scan with asir?
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to aquire a scan with asir?",
+        "text": [
+          "Step 1: Prescribe a scan",
+          "Step 2: Click Recon Options and from the Recon Options screen, select an ASiR mode (Slice) and an ASiR %
+                   value. As the percentage value increases, the noise reduction increases",
+          "* If you want to use ASiR to maintain image quality but reduce dose, from
+   		     the mA Control screen,reduce mA or increase noise index value",
+          "Step 3:  Proceed to scan."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+ASIR_PROSPECTIVE_RECONSTRUCTION
+How to perform asir prospective reconstruction?
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to perform asir prospective reconstruction?",
+        "text": [
+             "Step 1: Prescribe a scan",
+             "Step 2: From the ViewEdit screen, click Recon Tab"
+             "Step 3: From the Recon tab, click any prescribed PMR R2 to R10",
+             "Step 4: From the Recon Option screen, select an ASiR mode: Slice and an ASiR % value",
+             "Step 5: Click OK",
+             "Step 6: Continue with your prescription and proceed to scan."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+ASIR_RETROSPECTIVE_RECONSTRUCTION
+How to perform asir retrospective reconstruction?
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to perform asir retrospective reconstruction?",
+        "text": [
+             "1. On the Exam Rx desktop, click Retro Recon",
+             "2. From the Retro Recon screen, select exam and series and click Select Series",
+             "3. From the Retro Recon Setup screen, click New Series Number",
+             "4. Click Recon Options",
+             "5. From the Recon Option screen, select an ASiR mode: Slice and an ASiR % value. Click OK",
+             "6. Click Confirm."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+EFFECTS_OF_MANUAL_MA
+What are the effects of using manual ma?
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the effects of using manual ma?",
+        "text": [
+             "* When utilized with manual mA a Reference mA is entered, the Reference mA is the baseline, nondose
+                reduced mA",
+             "* When a % Dose Reduction value is entered the system calculates the actual mA that will be
+                used for the acquisition and selects the appropriate ASiR level to maintain image quality at the dose-reduced mA", 
+             "* For example if a Reference mA value of 200, a % Dose Reduction of 50% is entered, the actual mA for
+                the scan acquisition will be 100."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+EFFECTS_OF_AUTO_MA
+What are th effects of auto ma?
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are th effects of auto ma?",
+        "text": [
+             "* When utilized with Auto mA, a % Dose Reduction value is entered",
+             "* The system will calculate the mA for the scan taking into account the % Dose reduction value", 
+             "* The dose-reduced mA will be shown in the mA table and the system selects the appropriate ASiR level
+			    to maintain image quality at the dose-reduced mA."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+SCAN_WITH_DOSE_REDUCTION_GUIDANCE
+How to perform scan usin dose reduction guidance?
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to perform scan using dose reduction guidance?",
+        "text": [
+          "Step 1: Prescribe a scan",
+          "Step 2: From the ViewEdit screen, click mA",
+          "Step 3: From the mA, control screen click % Dose Reduction in either manual mA or Auto mA",
+          "Step 4: Enterthe desired dose reduction percentage",
+          "Step 5: From the mA control screen in Manual mA click Reference mA",
+          "Step 6: Enterthe desired mA value",
+          "Step 7: From the mA control screen, click OK",
+          "Step 8: Continue with your prescription and proceed to scan."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+BIOPSY_MODE
+What is biopsy mode?
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is biopsy mode?",
+        "text": [
+             "* Biopsy Mode improves the efficiency of setting up and acquiring slices during a biopsy",
+             "* All biopsy scan parameters are available on a single screen from which you can launch the biopsy scan",
+             "* You are able to choose which direction the scanner acquires images from a centering point as well as how many images to
+                acquire",
+             "* You can change slice thickness and/or interval. You can enter a specific location for a slice if
+                required",
+             "* AutomA is turned off when Biopsy Mode is entered, Review the Manual mA value prescribed",
+             "* All scans taken in Biopsy Mode are the Axial Scan Type."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+BIOPSY_REFERENCE
+What is biopsy reference?
+
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is biopsy reference?",
+        "text": [
+             " The Biopsy Reference tells the system how to accquire images based on the Biopsy Location",
+             "* Superior means all images are acquired from the Biopsy Location, superiorly",
+             "* Centered means the system acquires images above, at and below the Biopsy Location, If you enter
+                an even numbers of slices, the system places the extra image in the syperior portion",
+             "* Inferior means the images are acquired from the Biopsy Location inferiorly."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+SCAN_IN_BIOPSY_MODE
+How to aquire a scan in biopsy mode?
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to aquire a scan in biopsy mode?",
+        "text": [
+             "Step 1:  From the ViewEdit screen orthe Dynaplan screen, click Biopsy Rx',
+             "* The images remain in the same series",
+             "Step 2: From the Biopsy Rx screen, complete the following selections:
+             "a. Select a Biopsy Reference",
+             "* Click Superiorto make the biopsy reference location the first scan, with subsequent
+                images acquired superiorly from thatlocation",
+             "* Click Centered to make the biopsy reference location the center slice, with the other
+                images acquired above and below that location. Typically, select an odd numberfor
+                Centered to split the images evenly above and below the location",
+             "* Click Inferior to make the biopsy reference location the first scan, with subsequent
+                images acquired inferiorly from that location",
+             " b. Select a biopsy location",
+             "* Type a specific table location in the Biopsy Location field",
+             "* In orderto obtain positioning light position, the table must be moved to align the
+                positioning lights, then click Internal or External",
+             "c. Type the number of images for each pass in the Number of Images field",
+             "d. Select a slice thickness. Axial mode only allows 2.5, 5.0, or 10.00 mm",
+             "Step 3: Click Confirm Biopsy Rx to activate the biopsy scan",
+             "Step 4: Optional: manually film the biopsy images",
+             "Step 5: When the biopsy scan is finished and if additional groups are being scanned in the same series,
+                      re- activate AutomA. is turned off with Biopsy Mode."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+DMPR_CONSIDERATIONS
+What are the considerations while in dmpr?
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the considerations while in dmpr?",
+        "text": [
+             "*Each group must be contiguous to be able to be combined with the prior group in a DMPR session",
+             "*A DMPR Auto Apps session can be programmed for only Recon 1",
+             "*DMPR sessions are limited to 2,000 images",
+             "*Additional reformat protocols can be added using the Reformat application or Volume Viewer in the General
+               category from Image Works",
+             "*Any scans acquired after scanning has completed on the original scan group using Add Group or One More
+               scan are not added to the DMPR session",
+             "*Remember to include all of the desired coverage area in the original
+               scan prescription",
+             "*If the patient orientation is prescribed as Decubitus (right or left), you will observe that the Paging slider for the sagittal image will scroll images in DMPR coronal viewport and vice versa. 
+             "This is because in Decubitus orientation, patient’s sagittals and coronals are switched",
+             "* Hence, the DMPR sagittal viewport contains the coronals from patient’s reference axis, and the DMPR coronal viewport contains the sagittals from the
+                patient’s reference axis."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+DMPR_CONSIDERATIONS_WITH_AUTO_BATCH
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the consideration of dmpr with auto batch?",
+        "text": [
+             "* DMPR displays image anatomical orientation within a viewport as follows: A is at the top, P is at the
+                bottom, R is on the left and L is on the right. If you have a data set where the patient was scanned
+                prone, the image display is flipped to this orientation",
+             "* DMPR sessions are limited to 2,000 images",
+             "* Reformat protocols used in DMPR must be built in Reformat or Volume Viewer in the General category
+                as Single Step protocols. Multiple Step protocols are excluded from the list of available protocols for
+                selection in DMPR",
+             "* For AutoBatch, the reformat protocol cannot use the Oblique viewport",
+             "* A DMPR Auto Apps session can be programmed for each of the 10 PMR1s. A DMPR session can be a
+                single group or combined groups."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+DMPR_SCAN_CONSIDERATIONS_WITH_AUTO_BATCH
+What are the scan considerations of dmpr with auto batch?
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the scan considerations of dmpr with auto batch?",
+        "text": [
+             "* If DMPR is enabled under the Recon tab, Add Group displays some insensitive fields because it is
+                combined with the current DMPR session. Turn DMPR off for the added group if you no longer want it
+                to be included as part of the DMPR session. This allows changes to any of the acquisition parameters",
+             "* The W/L of the axial source images affect the edge detection of the auto batch. If the W/L is too
+                narrow, then anatomy is cut off from the auto batch. If the W/L is too wide, then undesired anatomy
+                is included in the auto batch. Make sure to set the appropriate W/L in Recon Options",
+             "* If you prescribed auto batch protocols and then quit DMPR before the auto edge detection starts,
+               the reformatted images are not completed",
+             "* To page/scroll through images during DMPR reconstruction, use the Oblique view for paging. Once
+                the reconstruction is complete, the image may change DFOV to accommodate all the data in 3D",
+             "* If a scan stops before all DMPR images for a session are acquired, it may not be possible to activate
+                the interactive mode because all the images are not yet available. Quit the DMPR session to return to
+                Exam Rx display and generate any reformatted images you want in Reformat from ImageWorks
+                desktop",
+             "* DFOV for AutoBatch axial images defaults to the DFOV of the scan range instead of the DFOV in the
+                protocol",
+             "* When multiple sessions of MPR are stacked, you cannot get to the next one until you finish the
+                previous session",
+             "* Click Start Direct MPR Review to get to the Interactive display screen and select
+                Quit",
+             "*If you do not want to quit the current DMPR session, you can still see the reconstructed axial
+               images",
+             "* Click Auto Link and view the images in the viewport",
+             "* You are not able switch to another AutoView layout until reconstruction for the DMPR session is
+                complete. To review images for another exam while images are being reconstructed, go to the Image
+                Works desktop and use the Viewer",
+             "* If you want to leave the DMPR session available once the reformat model is built, click AutoReview
+                Layouts to change the focus from DMPR. This allows review of images on Exam Rx display without
+                ending the DMPR session",
+             "* Do not quit until auto batch is started, as indicated by the auto batch in the reference image or until
+                auto edge detection is done, which is indicated by the black line directly under the Start Direct
+                MPR Review button."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+DMPR_SCAN_WITHOUT_AUTO_BATCH
+How to aquire a  dmpr scan without  auto batch?
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to aquire a  dmpr scan without  auto batch?",
+        "text": [
+          "Step 1: Prescribe a scan",
+          "Step 2: Click the Recon tab",
+          "Step 3: From the Recon tab, click Off for group under the Auto Apps column',
+          "Step 4: From the Session Setup screen, click Direct MPR and then click OK",
+          "Step 5: From the Session Setup screen, click Start New to setup a DMPR session",
+          "*You can combine groups or set each group as a new session. To combine groups the following
+            parameters must be the same: slice thickness, interval, SFOV, DFOV, Scan Type, Rotation Speed,
+            image center, algorithm, and ASiR Level. The groups must be contiguous",
+          "* If you want to change parameters between groups, click Start New instead of Combine Current",
+          "Step 6: To select reformat protocols to be used in the DMPR session, click Unused under Batch Protocol to
+                  open the list of available protocols",
+          "* Reformat protocols built in Reformat or the General category in Volume Viewer are displayed in
+            the Batch Protocol List",
+          "* Multi-step reformat protocols do not appear in the list",
+          "Step 7: Select up to five protocols from the Batch Protocol List, and click OK",
+          "* Use the Next and Prior arrows to move through the list of GE reference reformat protocols and
+             user define reformat protocols",
+          "*The order you select the protocols is the order they are listed for Batch Protocol",
+          "Step 8: Prescribe Filming, Auto Store, and Auto Transfer as needed for each protocol",
+          "Step 9: When generation of the DMPR session is complete, the Direct MPR BatchRx screen automatically
+                  displays",
+          "Step 10: From the Direct MPR BatchRx screen, select a protocol from the list of protocols",
+          "*If you use a protocol, it propagates the batch prescription to the view port with the Slice Thickness,
+            Spacing Between Views, FOV, and Number of Slices programmed in the protocol",
+          "* Confirm that the Mode is Oblique",
+          "Step 11: Set the parameters for Thickness, Spacing Between Views, FOV, and Number of Views",
+          "Step 12: Prescribe the Reformat range. For details on manipulating the DMPR image, see Manipulate
+                    DMPR images",
+           "Step 13: Click Preview and then Apply to review the reformat prescription",
+           "*Click Pause to pause the review",
+           "*Click Resume to continue the review",
+           "*Click Stop to end the review",
+           "Step 14: Click Save and then Apply to save the prescribed DMPR reformat series",
+           "* The following actions can be applied together with Save",
+           "* Click Film to film the DMPR Reformat series based on camera selection and setup in Session Setup",
+           "*Click Store to automatically archive the reformat series to designated archive device",
+           "* Click Show to view the reformat images as they are being created in the review viewport in the
+              lower-right corner of the viewport",
+           "* Click Transfer to network reformat images to Host selected in Session Setup",
+           "Step 15: Repeat steps 6 to 14 to create additional batch reformats",
+           "Step 16: Click Back to exit Direct MPR BatchRx.",
+           "Step 17: Click Quit and then, click Yes to close the DMPR session or click Back to continue to Direct MPR Review
+                     at a later time."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+EXAM_SPLIT
+What is exam split?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is exam split?",
+        "text": [
+             "*Exam Split gives you the capability to ""split"" a series of patient images into separate groups. These new
+               smaller image groups can be networked to desired reading stations for multiple ""reads"" and multiple billings
+               on select patient exams",
+             "*Using Exam Split allows for split images from a single acquisition and assign them to a Requested Procedure
+               ID or accession number retrospectively", 
+             "*On the image Works desktop using Exam Split, all the images of the
+               scan will be loaded. You can also use the mouse to select a range of images to be sent to a specific exam procedure",
+             "*At scan time, all patient records that you wish to have available to split to must be selected from the Patient
+               Schedule when selecting New Patient. Your system is configured in one of two modes for Exam Split",
+             "*The mode configured is dependent on the capabilities of the system you are sending images to review."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+SPLIT_EXAMS_WITH_CONNECT_PRO
+How to split exams with connect pro?
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to split exams with connect pro",
+        "text": [
+          "Step 1: From the Browser, click the Exam Rx icon.
+          "Step 2: Click the Patient Schedule icon.
+          "Step 3: From the Patient Schedule screen, select the desired patient exams to which you
+		           want to apply Exam Split once the images are reconstructed.
+          "*A maximum of 15 procedures can be selected",
+          "Step 4: Click Select Patient."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+NEURO_3D_FILTER
+What is neuro 3d filter?
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What is neuro 3d filter?",
+        "text": [
+           "* Neuro 3D Filter can be used to reduce pixel noise standard deviation or reduce dose while maintaining
+             image quality",
+           "* It may be possible to reduce dose depending on the level of filtering applied",
+"
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+NEURO_3D_FILTER_CONSIDERATIONS
+What are the considerations whilfe applying a neurro 3d filter?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the considerations whilfe applying a neurro 3d filter?",
+        "text": [
+          "* Nuero 3D Filter is not compatible with series that have duplicate slice locations",
+          "* To complete groups the following parameters must be the same: Slice Thickness, Interval, Tilt, SFOV,
+             DFOV, Scan Type, Rotation Speed, image center, and algorithm. The groups must be contiguous",
+          "* Two series are reconstructed: the original and a series with Neuro 3D Filter applied",
+          "* Maximum number of images forNeuro 3D Filter is 500",
+          "* Images are annotated with the applied filter: N1, N2 or N3",
+          "* Images processed with Low N1- series plus 30",
+          "* Images processed with Med N2- series plus 40",
+          "* Images processed with High N3- series plus 50",
+          "* Images can be set to automatically transfer to up to four hosts",
+          "* Neuro 3D Filter is not compatible with ASiR."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+APPLY_NEURO_3D_FILTER
+How to apply neuro 3d filter?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to apply neuro 3d filter",
+        "text": [
+          "Step 1: Prescribe a scan for a neuro application",
+          "Step 2: Click the Recon icon , in the Auto Apps column for the group",
+          "Step 3:Click off to display the Session Selection screen',
+          "Step 4: From the Session Selection screen, under Filters, click Neuro 3D",
+          "Step 5: Set the Filter Strength",
+          "a. Click Low N1, Med N2, or High N3",
+          "b. Click OK",
+          "Step 6: From the Filter Auto Transfer by Series screen, set Auto Transfer destination for up to four network
+                   hosts",
+          "a. Click Host 1",
+          "b. Click the network host in the list of availale destinations",
+          "c. Click OK",
+          "Step 7: Click Confirm",
+		  "Step 8: Press Move to Scan",
+          "Step 9: Press Start Scan."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+SMART_PREP_SCAN
+How to perform smart prep scan?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to perform smart prep scan?",
+        "text": [
+          "Step 1: From the ViewEdit screen, click Smart Prep Rx",
+          "Step 2: Click On, if Smart Prep is Off",
+          "Step 3: To automatic transition from Monitor Phase to Scan Phase when Transition RIOI reaches threshold,
+                   click Dynamic Transition",
+          "Step 4: From the scout localizer on the display monitor, click and drag the red X on the slice line to define the
+                  Monitor location. Alternatively, type in the S/I location in the Monitor Location text field, for example,S110",
+          "Step 5: From the SmartPrep screen, enter the following values",
+          "* mA (range 10 to 100 in 10 mA increments), typically enter 40 mA for most studies",
+          "* MonitoringDelay (0to 60 seconds in1 secondincrements) sets the time before monitoring scans begin",
+          "* Monitoring ISD(1 to 60 seconds in1 secondincrements) sets the time between monitoring scans",
+          "* Enhancement Threshold (0 to 1,000 in steps of 1) sets the bar on the graph to monitor threshold
+             enhancement. With Dynamic Transition is On, the Scan Phase starts automatically when the HU
+             value of the Transition ROI reaches the Enhancement Threshold",
+          "* Diagnostic Delay, (range 3 to 60 in 0.1 second increments) typically set to the minimum value
+             (automatic) for arterial studies and 10 seconds or longer for venous studies",
+          "* Allow enough time to deliver breathing instructions if Auto Voice is not being used",
+          "* The minimum time may vary when Auto Voice is turned on and depending on the monitor
+             location relative to the start location",
+          "* If Scan Location is changed after the SmartPrep screen is closed, to accommodate the new
+             table location, the Diagnostic Delay time is automatically updated to the minimum time
+             possible when Auto Minimum Delay is on. Respond to the confirmation prompts that indicate
+             a Diagnostic Delay change",
+          "* The Diagnostic Delay time is displayed in PrepGroup for Group1 onthe TimingTab,for example SP11.2.",
+          " AutoVoice Pre-message is available if Auto Voice is prescribed in the Voice Lights Timer in Timing parameters",
+          "* Auto Minimum Delay sets the Diagnostic Delay to the most minimum value possible, taking into consideration location of the monitor phase, start phase location, and Auto Voice Pre-message
+             length",
+          "Step 6: From the SmartPrep scren, click Accept",
+          "Step 7: Proceed to Acquire a SmartPrep scan."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+BASELINE_PHASE
+How to aquire base line phase scan?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to aquire base line phase scan?",
+        "text": [
+             "The Baseline phase acquires one non contrast scan and allows you to establish an area to monitor contrast
+enhancement",
+"Step 1: From the ViewEdit screen click the Confirm icon to proceed to scan.
+"Step 2: Review and respond to the warning message.
+"Step 3: Review the values on the Dyna Plan screen for all three phases: baseline, monitor, and phase.
+"Step 4:Press Move to Scan to advance the table to the monitoring location.
+"Step 5: Press Start Scan.
+"Step 6: From the reconstructed image on the display monitor, click Ellipse ROI and place a maximum of
+three ROIs over areas of interest. For example, if scanning a liver, place an ROI in liver parenchyma
+away from vessels, if evaluating a vessel place the ROI over the vessel.
+"*Use, as needed,the zoom,roam,display normal,hide/show graphics,erase,or explicit mag(factor
+range: 0.5 to 2.0) from the SmartPrep display control panel.7. From SmartPrep Display control panel, select the ROI to be used for the Transition ROI. The last ROI
+placed on the image will be designated as the Transition ROI or set the desire ROI using Transition ROI
+selection in the SmartPrep Display control panel.
+"* The Transition ROI will be displayed in yellow when in active and in blue when active,the other ROIs
+will be displayed in white."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+NEW_IMAGES_FROM_SCANNED_DATA
+How to create new images from scan data?
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to create new images from scan data?",
+        "text": [
+          "Step 1: Click Retro Recon",
+          "Step 2: From the Retro Recon List Select screen, select the appropriate patient, exam, and series",
+          "Step 3: Click Select Series",
+          "Step 4: On the Retro Recon screen, type a new series description in the Series Description area if desired",
+          "Step 5: Click New Series Numberto reconstruct images in a system-assigned new series number between
+                  301 and 399",
+          "* If more than 399 series are already reconstructed, series 399 is repeated with a unique UID",
+          "* If not selected, the new series number will be original series number +100 (e.g., original series is
+             6, recon series is 106)",
+          "Step 6: Click Retro to select all groups and click Yes or click Y for an individual group",
+          "* If you select Retro, a confirmation message,""Retro this group?"" displays. Click Yes to proceed",
+          "*must determine which groups have data you wish to reconstruct",
+          "Step 7: Type in Retro Start and Retro End locations",
+          "* Cine images do not need a S or I designation. All others do",
+          "Step 8: Click Thick and select an image thickness. Click 0.625Z to generate overlapped 0.625 mm thickness
+          axial images",
+          "Step 9: Click Time and type the Start and End times",
+          "* For cine, specify a time period",
+          "Step 10: Click Interval and type in an image interval",
+          "Step 11: Click DFOV and type in desired value",
+          "Step 12: Click R/L Center and/or A/P Center to set image offset",
+          "* Place the real time cursor in image to display the values in upper left corner of the image. You
+           may also click List/Select to highlight the correct exam and series or use Graphic Retro recon",
+          "Step 13: Click Recon Option and select one of the options on the Recon Option screen",
+          "* For details, see the Set the ReconOptions procedure",
+          "* Set the W/L, ASiR level, Flip/Rotate if enabled",
+          "* If Flip/Rotate is applied, New Series should be selected",
+          "* Flip/Rotate and non Flip/Rotate images cannot be mixed in the same series",
+          "Step 14:Click Recon Type and select one of the available algorithms",
+          "* A window displays with all of the available algorithms from which you can choose the
+            appropriate algorithm",
+          "* Soft and Standard are only available if Segment recon mode is selected",
+          "* Soft,Standard,Detail,Lung,Bone,BonePlusandEdgeareavailableif Fullreconmode is selected",
+          "Step 15: Click Graphic Retro Y to graphically prescribe the reconstructions, one group at a time",
+          "* Click and drag the blue circle on the reference image to the desired location. The SFOV is
+            indicated by a red circle",
+         "Step 16: Click Confirm to generate images."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
