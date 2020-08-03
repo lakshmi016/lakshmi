@@ -1,0 +1,1607 @@
+###chapter 14  reformat###
+
+
+
+
+REQUIREMENTS_FOR_REFORMAT
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the requirements to be met before reformat?", 
+        "text": [
+             "1:A valid image set for reformat must have the same",
+             "* Displaycenter",
+             "* Orientation",
+             "2: Four or more images must be selected before selecting Reformat",
+             "3: You cannot have two images with identical locations",
+             "4: Spacing must be less than 10 mm",
+             "5: The image set can only include axial, sagittal, or coronal images",
+             "6: Different Display Field Of Views and Digital Tilts can be loaded, however you have to select between
+                 different sources of images to view them. The source annotation is located in the upper-left corner
+                 of the image. You can change between sources by clicking on the red annotation."        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+REFORMAT_DO_NOT_MATCH_W/L_USER_PREFERNCES
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": " What is to be done if the W/L1 values selected from the pull down menu in reformat do not match your W/LUsers Prefs?", 
+        "text": [
+          "1: OpenImageWorks",
+          "2: ClickUserPreferences",
+          "3: Review saved values and correct them if necessary. See Set W/L preset preferences",
+          "4: If this does not resolve the issue contact your service representative."       
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+OPEN_REFORMAT
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to open reformat?", 
+        "text": [
+            "1: Click the ImageWorks icon",
+            "2: From the browser, select the desired exam/series/images to reformat",
+             "* To select a subset of images, click on the firstimage and simultaneously press and hold the Shift,
+                select the last image',
+             "* To select specific images click on the image numbers and simultaneously press and hold Ctrl",
+            "3: From the browser list of applications, click Reformat",
+            "*  An oblique, axial, sagittal, and coronal are displayed in the four viewports",
+            "*  My Tools tab can be customized to display any display icons. Therefore, the instructions in this
+                chapter are for accessing a particular icon from the tab on which it originated. On your system,
+                the icon may be on your My Tools tab",
+		    "4: Change the view type by selecting a view type from the red annotation."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ROTATE_FREEHAND_OR_PAGE_IMAGES
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to rotate freehand or page images?", 
+        "text": [
+            "1: Click the Rotation/Paging icon to activate a freehand rotation orto page through images",
+            "2: Click and drag to rotate 3D/Oblique views and page axial/sagittal/coronal views",
+            "*  No rotation handle is displayed on 3D/oblique views when this mode is selected."    
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ZOOM_OR_MAGNIFY_IMAGES
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to zoom or magnify images?", 
+        "text": [
+            "1: Click the Zoom icon to activate zoom mode",
+            "2: Click and drag to zoom the image in or out."        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+PAN_OR_ROM_IMAGES
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to pan or roam images?", 
+        "text": [
+             "1: Click the Pan icon to activate a roaming mode",
+             "2: Click and drag the image to move it up and down and left and right (only applicable if the image has
+                 been zoomed in)."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+SELECT _ OBJECTS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to select objects?", 
+        "text": [
+            "1: Click the Selection icon to activate the selection mode."       
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+W/L_IMAGES
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to activate w/l mode?",
+        "text": [
+          "Step 1: Click the W/L icon to activate the W/L mode", 
+          "Step 2: Click and drag over an image to adjust the window width (left-right motion) or the window level (updownmotion)."
+"
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+CHANGE_THE_IMAGE_ORIENTATION
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change image orientation?",
+        "text": [
+          "Step 1:Click an Image Orientation icon to change the plane or a 3D or oblique reformat image",
+          "S = Superior",
+          "I = Interior",
+          "A = Anterior",
+          "L = Left",
+          "P = Posterior",
+          "R = Right."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ACTIVATE_THE_OBLIQUE_MODE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to activate oblique mode?",
+        "text": [
+          "The Multiple Oblique Mode button left) displays three oblique planes defined by three adjustable color axis
+          (orange,green, blue)",
+          "Step 1: Adjust any axis to update the two other oblique planes",
+          "Step 2: Click againto de-activate theMultipleOblique mode,which keeps the orientations defined  in oblique
+                   view ports",
+          "The Single Oblique Mode button(right) displays a line cursor in Reformat, whichis used to define a new plane.
+          "Step 1: Set the function of one view port to Oblique",
+          "Step 2: Make another viewport primary and then click the Single Oblique Mode button",
+          "* A solid yellow line appears, which represents the plane of the Oblique reformat"
+          "Step 3: Place the cursor on the solid yellowline and click and drag it to tilt the yellow line to the desired plane."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+USING_RIGHT_CLICK_FUNCTIONS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to use the right click functions?",
+        "text": [
+             "Step 1: Place the cursor over the viewport and right-click to display the on-view menu",
+             "Step 2: Move the cursor down the menu until your choice is selected.Not all choices are available under all conditions."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+TEXT_ANNOTATION
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are text annotations used for?",
+        "text": [
+             "* You can add notes and comments directly on the views, and use a marker with the annotation to point out
+                anatomical features",
+             "* User text annotations can be edited, moved or deleted as necessary", 
+             "* When images are saved, any annotations shown on the images are saved with them."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+PLANE_OR_VIEW_TYPE
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change plane or view type?",
+        "text": [
+             "Step 1: Click and select from the drop down menu to change the plane or select a
+                      3D mode."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+IMAGE_LOCATION
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change image location?",
+        "text": [
+            "Step 1: Press the middle mouse button and drag horizontally to scroll through the
+                     2D images or left-click to increment and right-click to decrement one
+                     image at a time."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+DFOV
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to use the magnifying factor?",
+        "text": [
+             "Step 1: Press the  middle mouse button and drag horizontally to magnify the image
+                      in real-time or left-click to increment and right-click to decrement the
+                      magnification factor."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+IMAGE_ROAM
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to move the image within view port?",
+        "text": [
+             "Step1: Press the left mouse button and move the image within the viewport."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+SLICE_THICKNESS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change slice thickness?",
+        "text": [
+             "Step 1: Middle-click and drag horizontally to change the slice thickness or in realtime or left click to increment and right-click to decrement the slice
+                      thickness (2Dimages)."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+W/L_W/W
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change window width or window length?",
+        "text": [
+             "Step 1: Press the middle mouse button and drag horizontally to change the W/L in
+                      real-time orleft click to increment and right-click to decrement the W/L",
+             "Step 2: Left click to select predefined WW/WL setting."
+"
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+PATIENT_NAME
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to select patient name?",
+        "text": [
+             "Step 1: Click and select from the menu to show or hide the patient name."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+REMOVE_A_TOOL
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to remove a tool?",
+        "text": [
+             "Step 1 : To remove a tool from My Tools palette, drag and drop the tool outside the palette and right-click the tool
+                       and select Remove from My Tools."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ADD_A_TOOL
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add a tool?",
+        "text": [
+             "Step 1: To add a tool to My Tools palette, go to the tab where to tool to add is, then drag and drop it to the My Tools
+                      palette or right-click the tool and select Add to My Tools (for example to add annotations preset tool go to
+                      Display tab)."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+MOVE_OR_HIDE_PALETTE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to move or hide the palette?",
+        "text": [
+             "Step 1: The My Tools tab can be floated anywhere in the interface", 
+             "Step 2: Click and drag the top part of the tab to move it",
+             "Step 3: Press the space barto show or hide at a mouse location."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ANNOTATE_AN_IMAGE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to apply preset annotation or unique or specific annotation?",
+        "text": [
+             "Step 1: OpenReformat",
+             "Step 2: Click the Display tab",
+             "Step 3: Click the Annotation icon", 
+             "Step 4: On the Annotation screen, click the annotation type (simple, linked or measure)",
+             "Step 5: Place the cursor on the image and click to deposit the cursor and default text",
+             "Step 6: Enter new text in the Annotation text screen."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+PRESET_ANNOTATION
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add custome preset annotatiion to preset annotation list?",
+        "text": [
+             "Step 1: open reformat",
+             "Step 2: From the Display tab, click the Annotation icon ",
+             "Step 3: On the Annotate screen, type text in the Annotation Text field",
+             "*The preset name automatically fills in with part of the text from the annotation text field",
+             "Step 4: Change the preset name",
+             "Step 5: Select the text",
+             "Step 6: Press Back space",
+             "Step 7: Type in a new name",
+             "Step 8: Click Use for other anatomy if you want the annotation available for other anatomies or Use for
+                      other protocol if you want the annotation available for other protocols",
+             "Step 9:  Click Save as preset to add annotation to preset annotation list."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+MEASURE_DISTANCE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to measure distance?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: Click the Display tab",
+             "Step 3: Click the Measure Distance icon",
+             "Step 4: Make one selection for each menu choice',
+             "* Measure",
+             "* From Volume (3D): to view the true distance in the 3D volume. Endpoints can be positioned at
+                different depths in the volume. Rotate 3D volumes to check the exact position",
+             "* Projection (2D): to view the length of the projection. When used in 3D images, the
+                measurement will correspond to the projected red distance in the plane of the screen",
+             "* Display",
+             "* On one Viewport: to view the measurement on only one viewport",
+             "* On all View ports:to place a measurement ondifferent slicesor volumesof a multi-phase scan
+                at the same time",
+             "* On one slice: to view the measurement on only one slice",
+             "* On all slices: to view the measurement on all slices",
+             "* Along",
+             "* Straightline: to deposit the first and second point",
+             "* Curve: to measure along a curve by depositing multiple points on the image. Right-click to
+                validate the curved line",
+             "Step 5: Position cursorfor start of measurement and move cursor to end point of measurement and click."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+MEASURE_ANGLE
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to measure angle?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: Click the Display tab",
+             "Step 3: Click the Measure Angle icon",
+             "Step 4: Click and drag the squares to adjust the three points."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+MEASURE_AREA
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to measure area?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: Click the Display tab",
+             "Step 3: Click the Measure Area icon",
+             "Step 4: Click and drag the squares to adjust the points around the region of interest"
+             "Step 5: Right-click to display results."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+MEASURE_VOLUME
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to measure volume?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: Click the Display tab",
+             "Step 3: Click the Measure Volume icon",
+             "Step 4: Segment an object of interest",
+             "Step 4: Click the viewport of the segmented object",
+             "Step 5: Click any of the corners to size the volume."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+COLOUR_MAPS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to manage colour maps?",
+        "text": [
+          "Step 1: open reformat",
+          "Step2 : Click theDisplay tab",
+          "Step 3: Click the colored ROI icon",
+          "Step 4: Click the image to deposit the ROI",
+          "Step 5: Click the color ramp displayed on the left side of the image to open the Color Table screen",
+          "Step 6: Click the Statistics tab to view range percentages for each color",
+          "Step 7: Change the values of the ROI on the viewport",
+          "a. Click the Configuration tab to change the values of the ROI on the viewport",
+          "b. Click a value in the Min Value column, and enter a new value",
+          "c. Do the same for the Max Value and Range name",
+          "Step 8: Select a color",
+          "a. Click a color in the Color column to view the Select new color screen",
+          "b. Drag and drop the cursor on the color wheel",
+          "c. Click Apply",
+          "Step 9:Click Add orRemove to change the viewed colors",
+          "Step 10: Click Presets tab to load and save Color map presets",
+          "Step 11: Click Save to save setting adjusted in the Configuration tab",
+          "Step 12: To load a color map preset, select the color ramp from the list."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ADD_ROI
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "Q",
+        "text": [
+          ANS
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ROI_PREFERENCES
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to to set the type of information displayed in the viewports for an ROI?",
+        "text": [
+             " Step 1: open reformat ",
+             " Step 2: From the Main Control screen, click More Tools",
+             " Step 3: Click Display to view the measurement tools",
+             " Step 4: Select the desired view on which you want to place the ROI",
+             " Step 5: Click the ROI icon on the Review Controller to view the ROI preferences screen",
+             " Step 6: For a 3D ROI, one of the following options",
+             "* Click One Volume to view the VOI on only the viewport on which the VOI is displayed",
+             "* Click All Volumes to view the VOI and statistics on all viewports",
+             "Step 7: Click one or more Statistics option buttons to view any combination of minimum, maximum,average,
+                      standard deviation and area (2D) or volume (3D)",
+             "Step 8: Type in the Vertical and Horizontal direction fields: (2D) o rROI height,width and depth(3D). The sphere
+                      VOI does not have a depth entry",
+             "Step 9: To hide the ROI statistics, click on the edge of the ROI to make it active, then at the center of the ROI,
+                      right-click on the center dot, and select Hide/Show statistics."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+CURVED_VIEW
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to display a format of a curved, complex view of tortuous vessels or organs?",
+        "text": [
+             "Step 1: open reformat ",
+             "Step 2: In one of the viewports, right-click on the view type active annotation and select Curved",
+             "Step 3: On an axial, sagittal, or coronal image, press and hold Shift as you deposit points along the anatomy",
+             "Step 4: As you trace, the curved image updates automatically in the curved reformat viewport."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+X_SECTION_HISTOGRAM_VIEW
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to create an x section histogram view?",
+        "text": [
+             "Step 1: open reformat",
+             "Step 2: In one of the viewports, right-click on the view type active annotation and select Histo or X Section",
+             "* If you select a view type of histogram, you will immediately view a volume histogram which
+                includes the entire 3D model. No other action is required. Place the cursor on the voxelreference
+                line and hold Shift. The image displays the range of voxel class boundary lines by highlighting
+                them in green",
+             "* If you select a view type of X Section, the view will display Undefined histogram until you start to
+                define the trace",
+             "* Both the volume and cross-section histograms contain the same information with the exception
+                of the name and measurement units. Cross-section histograms show total area, while volume
+                histograms show the total volume forthe entire object without cut planes",
+             "Step 3: For a cross-section (X Section) histogram, in the viewport containing the anatomy of interest, press
+                      Shift and simultaneously click the image to deposit points on the area of interest to create a trace",
+             "Step 4: Click Exit",
+             "Step 5: Click OK."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+MPVR_VIEW
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to create an mpvr view?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: Click the red annotation in the upper-left corner of the viewport and select 3D or MIP render mode.
+                      The selections available are dependent on the view type",
+             "* MIP is used most often in CTA models to demonstrate the most intense voxels",
+             "Step 3: Click the Oblique Mode icon",
+             "Step 4: Click and drag the yellow line on the image",
+             "Step 5: Place the cursor over the red thickness annotation do one the following options",
+             "* Type the desired thickness and press Enter",
+             "*Middle-click and drag to the desired thickness",
+             "Step 6: Click Exit and OK to finish."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+PROFILE_VIEW
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to create a profile view?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: Select the Profile Layout preset, if available",
+             "Step 3: In one of the viewports, right-click the view type active annotation and select Profile",
+             "Step 4: Onanaxial, sagittal, or coronal image, press andholdShift as youdepositpoints alongthe anatomy",
+             "Step 5: As you trace, the profile view displays the pixel intensity along the trace",
+             "Step 6: On the profile view",
+             "* The horizontal axis is the position in millimeters along the trace and the vertical axis is the pixel
+                intensity values as a function of that position",
+             "* Press Shift to display the pixel intensity from the location of the 3D cursor. Click and drag the
+                white line to move it, which in turn, moves the cursor on the image",
+             "* The mean and standard deviation are displayed on the bottom",
+             "Step 7: Click Exit and OK to return to the browser."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+DATA_SET
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "What are the effects of volfume rendering on data set?",
+        "text": [
+          "It makes highly opaque objects more visible and at the same time it makes less opaque objects more transparent."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+ATTACH_OR_DETACH_OBJECTS
+
+
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to attach or detach objects?",
+        "text": [
+             "Step 1: Open Reformat",
+             "Step 2: With a VR image displayed, click the VR tab",
+             "Step 3: Click Advanced VR Settings",
+             "* Read the text on the tab for more information",
+             "Step 4: Click a color to activate",
+             "Step 5: Click the Attach Mode icon",
+             "step 6: Click Attach at the bottom, center of the VR Controls
+                      screen",
+             "Step 7: Adjustthe opacity ofthe colored voxels by clicking on the colored box atthe topof the ramp and drag
+                      up or down",
+             "Step 8: Attach another color by repeating the steps above."
+
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+CUT_PLANES
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to use cut planes?",
+        "text": [
+             "Step 1: Open Reformat",
+             "step 2: Move the 3D cursor to the location of where you want the cut plane reference point",
+             "step 3: On a reformatted image, right-click on the No cut red annotation and select a plane cutting the 3D
+                      view",
+             "Step 4: Rotate the view to 3D view to display structures of interest in cut area",
+             "step 5: Select Cut planes off to deactivate."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+ADD_COLOURS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to add colours?", 
+        "text": [
+           "1. open reformat",
+           "2. With a VR image displayed, click the VR tab",
+           "3. Click Advanced VRSettings",
+           "4. Place the 3D cursor on the anatomy of interest",
+           "5. Click Add."  
+                      
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+ADD_OR_REMOVE_ANATOMY_WITH_AUTOSELECT
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How  to automatically remove anatomy from reformatted images?", 
+        "text": [
+          "1. open reformat",   
+          "2. Click the Segmenttab",
+          "3. Click Auto Select",
+          "4.Select a tool for segmenting",
+          *Click Any structure for vessels greater than 5 mm or soft tissue. Click and hold until area of
+           interest is filled",
+          * Click Small vessel (if available) for vessels less than 5 mm. Click once to fill and track vessel.
+          * Click Bones (if available) to segment bones",
+          * Click Pick from VR",
+          "5. Click Add or Remove depending on the desired outcome",
+          "6. Scroll through the axial images at minimum slice thickness",
+          * If any vessels are contoured in green, put the cursor on the missing vessel in the 2D view andclick
+          and hold until the area of interest is filled",
+          "7. Repeat steps to complete all missing vessels."    
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+ASSIGN_RANGE_OF_COLOURS
+
+
+
+
+
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to assign range of colours?", 
+        "text": [ 
+"1.Open Reformat",
+"2. With a VR image displayed, click the VR tab",
+"3. Click Advanced VRSettings",
+"4.Click the box next to the word Color",
+"5. In the Transition area, click Step",
+"6. Adjust the diamonds between the colors to the desired value."
+           
+             
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+AUTOFIT
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to refine the vr opacity of an image?", 
+        "text": [
+          "1.OpenReformat",
+          "2. With a VR image displayed, click the VR tab",
+          "3. Click Basic VR Settings",
+          "4. Place the 3D cursor on the anatomy of interest in any multiplanar view",
+          "5. ClickAutoFit",
+          "6. Hold down the middle mouse button and move the mouse up and down to refine the VR opacity",
+          "7. Click Save New VR Settings to save setting as a new VR preset."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+BATCH_FILM_IMAGES
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to set up a batch rotation of images to film/save?", 
+        "text": [
+           "1.OpenReformat",
+           "2. Click the Film/Save tab",
+           "3. Click Batch",
+           "4. On the Batch screen, click Rotate",        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+BATCH_FILM_IMAGES_1
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to re rotate images?", 
+        "text": [
+          "         
+        "1. Click the appropriate arrow to indicate rotation direction",
+        "2. Type in the number of images or angle between images in the appropriate field",
+        "*Modifying one of these parameters updates the other",
+        "3. Type in the FOV",
+        "4. Select the desired output mode from the menu",
+        "*Choose Print to send generated images to default printer(setup the Format and the display of a
+         ReferenceImage)",
+        "* Choose Save to save generated images in a new series in the Browser",
+        "*Choose Print/Save to film the generated images from a default printer and save them in a new
+        series",
+       "5. Click OK."
+       ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+BATCH_FILM_IMAGES_2
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to arrange radial planes on 2d images?", 
+        "text": [
+          "1. Adjust the center of radial slices (A), first radial plane location (B), and the number of radial planes (C)
+             on the 2D reference image",
+          "2. Enter the Number of Images, Spacing between Images, Slice Thickness, Rendering Mode, and FOV",
+          "3. Select the desired output mode from the menu",
+          "* Choose Print to send generated images to default printer (setup the Format and the display of a
+             ReferenceImage)",
+          "* Choose Save to save generated images in a new series in the Browser",
+          "* Choose Print/Save to film the generated images from a default printer and save them in a new
+          series",
+          "4. Click OK."         
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+BATCH_OBLIQUE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": " How to define a set of oblique planes adjusting settings (range, angle, position) from a grid on
+                  a reference image?", 
+        "text":[
+              "1. open reformat",
+              "2. Click Film/Save tab",
+              "3. Click Batch",
+              "4. On the Batch screen, click the view to be used as the reference image",
+              "5. Click the Oblique tab to display a grid used to define the oblique planes",
+              "6. Enter a value forthe Number of Images, Spacing Between Images, Slice Thickness, Mode (Average,
+               MIP, MIN, VR), and FOV",
+              "7. Select the desired output mode from the menu",
+              * Choose Print to send generated images to default printer (setup the Format and the display of a
+              Reference Image)",
+              * Choose Save to save generated images in a new series in the Browser",
+              * Choose Print/Save to film the generated images from a default printer and save them in a new
+              series",
+             "8. Click OK",
+              * The Spacing between views and slice thickness can be set independently of each other creating a
+              gap, contiguous or overlapped images.
+              
+       ]
+      }
+    ]
+  ]
+}
+	 
+	 
+	 
+BATCH_SCREEN
+	 
+	 
+	 
+	 {
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to display the batch screen?", 
+        "text": [
+          "1.Click the Film/Save tab and then click Batch to display the Batch screen."    
+       ]
+      }
+    ]
+  ]
+}
+
+
+
+
+CHANGE_A_COLOUR
+
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to change a colour?", 
+        "text": [
+          "1.open reformat",  
+          "2. With a VR image displayed, click the VR tab",
+          "3. Click Advanced VRSettings",
+          "4. Click the box next to the word Color",
+          "5. Click the arrow on the Colors button",
+          "6. Select a color, or click More Colors to display the color wheel",
+          "7. On the color wheel, drag the black circle in the color wheel to the desired color",
+          "8. ClickDone."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+COMBINE_SEGMENTED_OBJECTS
+
+
+
+v{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to t combine 3D segmented objects together?", 
+        "text": [
+          "1.open reformat",     
+          "2. Select and view the images to be used for combining objects.",
+*All objects must originate from the same master volume",
+"3. Click the Segment tab",
+"4. Perform segmentation to generate objects to combine using any segmentation technique(threshold,
+Auto Select, paint, etc.)",
+"5. Display objects to combine in separate views",
+"6. Set the mouse mode to Select mode",
+"7. Double-click to isolate first view of interest",
+"8. Single-click to isolate second view of interest",
+* Views of interest display red and green borders. Other views should not have color borders",
+* To adjust red and green borders, click the view to setred, the other view will turn green",
+"9. Select an operation (results of the operation display in the red views)",
+"10. Click Advanced Processing",
+* Click the Subtraction icon to remove all the voxels in the primary view that also exist in
+the secondary view",
+* Before subtracting, make sure the borders of the view are displayed as: Red - Green = Red",
+* Click the Intersection icon to keep only the voxels that exist in the same location in
+both objects",
+* Click the Addition icon to keep all the voxels that exist in either of the objects."
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+FILM_OR_SAVE_OPTIONS_SCREENS
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to display film or save options screen?", 
+        "text": [
+          "1.Click the Film/Save tab and then click Film/Save Options to display the Film/Save Options screen",       
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+MULTI_VR_OBJECT
+
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to create a multi-vr object?", 
+        "text": [ 
+          "1.open reformat",  
+          "2. Click the Segment tab",
+          "3. Select Auto Select",
+          "4. Selectthebuttoncorrespondingtothe structureto add(SmallVessel/Structure /Bone) andclickAdd",
+          "5. Click Yes to clear the upper left viewport",
+          "6. From any 2D view, click and hold the left mouse button on the object you want to add",
+          "7. Set left mouse to Select mode",
+          "8. Drag the VR viewport and drop it on the top left viewport of the isolated object where "Drop here to
+              mergeview" appears",
+          "9. Click the VR tab",
+          "10. Click MultiObjects",
+          "11. On the Multi-object screen,roll over Object 1 and Object 2. The corresponding object appears in the
+leftwindow",
+          "12. Select one object and adjust its transparency",
+          "13. Click on the eye to hide or show the corresponding object on the active viewport".        
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+OPACITY_RAMP
+
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to modify opacity ramp?", 
+        "text": [
+          "1.open reformat",  
+          "2.With a VR image displayed, click the VR tab",
+          "3. Click Advanced VR Settings",
+          "4. Click and drag the solid white boxes left orrightto independently modify the upper orlowerrange of
+the ramp",
+"5. Click and drag the lower white box to the right to remove soft tissue or noise from an image",
+"6.Click the white box at the top and drag up or down to modify the overall opacity of the rang. This
+affects the opacity of all visible voxels",
+"7. Click the solid blue box on the rang and drag left or right to change the upper and lower values
+applied to the ramp."
+       
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+PAINT_ON_SLICES
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to draw contours of the structure of interest on different slices?", 
+        "text": [
+          "1.open reformat",  
+          "2.Click the Segment tab",
+          "3. Click the Paint on slices icon',
+          "4. Move the 3D cursor to the edge of the feature of interest",
+          "5. If desired,click Edge Attraction to automatically refine the drawn contours,adjusting them to nearby
+            structure edges",
+          "6. Press Shift and click to deposit the cursor",
+          "7. Release Shift and click and drag the 3D cursor to define the area",
+          "8. Release the left-mouse button to connect last point to first point",
+          "9. Move to the next slice on which you want to paint",
+          *It is not necessary to define contours on every slice",
+          *The contours interpolates to the intermediate slices",
+          "9. Repeat the process until your reach the last slice containing the structure to contour",
+          "10. Click Apply",
+       ]
+      }
+    ]
+  ]
+}
+
+
+
+
+
+
+REMOVE_FLOATERS
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to remove floaters?", 
+        "text": [
+          "1.open reformat",
+          "2. Performasegmentation",
+          "3. Click the Segment tab",
+          "4. Click the Advanced Processing icon",
+          "5. Click the view of interest and click Filter Floaters",
+          "6. Click Filter Size and select Small, Medium, Large, or Custom",
+          "7. Click Apply",     
+        ]
+      }
+    ]
+  ]
+}
+
+
+
+
+THRESHOLD_AN_IMAGE
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to threshold the image and keep only voxels within a specified range of value?", 
+        "text": [
+          "1.open reformat",
+          "2. Click the Segment tab",
+          "3.Click Threshold",
+          "4.On the Threshold screen, select the desired image from which you want to threshold",
+          "5.Adjust the range of voxel values using eitherthe sliders ortyping in a minimum and maximum value",
+          "6.Click Apply Threshold to display only the part of the 3D volume with voxel values inside the set range",
+          "7.To further refine segmentation, select the object on the viewport and click",
+          * Remove Object to remove all voxels connected to the object",
+          * Keep Object to remove all objects not connected to the object."      
+       ]
+      }
+    ]
+  ]
+}
+
+
+
+
+ZOOM_IN_OR_OUT
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "description",
+        "title": "How to zoom in or out?", 
+        "text": [
+          "1.OpenReformat",
+          "2. With a VR image displayed, click the VR tab",
+          "3. Click Advanced VR Settings",
+* Read the text on the tab for more information.
+          "4. Click and drag the red box in the lower window (which represents the scale of voxel values
+          displayed) left or right to shift the display",
+          "5. Click the zoom icons the upper right corner to zoom in and out of the image",
+*Or,click ontop-right button(zoomdisplay),and thenclick anddrag onthe mainVR ControlDisplay
+(a red mask will appear) to define a range of interest.
+         "6. Right-mouse click to return to the original histogram range      
+        ]
+      }
+    ]
+  ]
+}
+
